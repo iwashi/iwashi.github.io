@@ -1,0 +1,25 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: iwashi.co
+email: iwase.yoshimasa+website@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  WebRTC、インフラ、自動化、開発プロセスなどに関するウェブサイト
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://iwashi.co" # the base hostname & protocol for your site
+twitter_username: iwashi86
+github_username:  iwashi
+
+# Build settings
+markdown: kramdown
+
+exclude: [vendor]
+
+gems: 
+  - jekyll-sitemap
+  - jekyll-feed
