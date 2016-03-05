@@ -9,25 +9,31 @@ tags: []
 ## はじめに
 
 2016/3/3より、[Slack](http://jp.techcrunch.com/2016/03/03/20160302slack-calls/)に音声通話機能が搭載された。
-試しにつかってみたSlackユーザもそれなりにいると思う。
+試しに使ってみたSlackユーザもそれなりにいると思う。
 
-音声通話機能の対応ソフトは、現時点では限定的だ。Slackの設定画面の一文を引用すると
+Slack音声通話機能の対応クライアントは、現時点では限定的だ。Slackの設定画面の一文を引用すると
 
 ```Currently on Mac and Windows desktop apps and in Chrome; coming soon to mobile!```
 
 の通りで、Chromeまたはデスクトップのネイティブアプリとなる。
-音声機能が実装されていてこの種類の対応状況なら、もちろん利用技術はWebRTCと考えるのが素直であり、
-ここで、最も気になるのはその内部の実装・実現方式がどのようになっているか、という点だ。
+音声機能が実装されていてこの種類の対応状況なら、もちろん利用技術はWebRTCと考えるのが素直(しかもScreenHeroを買収しており)だ。
+ここで、最も気になるのは内部でWebRTCをどのように利用しているか、という点だ。
 
 すでに、WebRTCエンジニア御用達のWebRTCHacksでは[Dear Slack: why is your WebRTC so weak?](https://webrtchacks.com/dear-slack/)というタイトルで、Philipp Hancke氏(fippo)が記事を書いており、当該記事の中では簡単な説明がある。だが、述べられていない点も多い。
 
 そこで、本記事では、200万人を越えるアクティブユーザを抱えるSlackが、どのようにWebRTCを利用しているのか、いくつかポイントをまとめたいと思う。
-実際に、DesktopAppとChrome間での音声通話時に、WebRTCのwebrtc-internalsからDumpを取得して解析した結果のまとめであり、
-一部想定して書いている記述を含むものの、事実ベースの内容の記事になる。
+実際に、
+
+- DesktopAppとChrome間での音声通話時に、WebRTCのwebrtc-internalsからDumpを取得して解析
+- ChromeのJavaScriptをななめ読み
+
+して記事を書いており、もちろん不明な点は想定して書いている記述を含むものの、事実ベースの内容の記事になる。
 
 なお、本記事はWebRTCについて、ある程度知識がある人向けに書いているので、基本的な事項は説明しない。
 もし、TURNやMCUという言葉が分からなければ、[HTML5 Expert.jpの解説記事](https://html5experts.jp/iwase/12585/)辺りを先に読んで欲しい。
 また、途中でSDPも出てくるので、SDPアレルギーな場合は、一部読み飛ばすのが良いと思う。
+
+もし、記載が誤っている点などあれば [@iwashi86](https://twitter.com/iwashi86) までメンション/DMをいただきたい。
 
 ということで本題。ポイントをまとめていく。
 
@@ -176,6 +182,19 @@ a=candidate:34 1 udp 2013266431 172.31.1.90 12016 typ host
 
 この方式にすると、多人数会議になった場合は、recvonlyのストリーム1本に複数人の音声が乗ることになるはず。（3者以上の通話は未検証）
 
+### シグナリングについて
+
+シグナリングはSlackが以前に買収したScreenHeroのものを利用しているようだ。
+
+{% highlight javascript %}
+_getServer("screenhero.rooms.join", ...)
+// 略 //
+_getServer("screenhero.rooms.create", ...)
+{% endhighlight %}
+
+のようなコードがminifyされたコードの中に見えることから分かる。
+ルームベースのシグナリングを提供しているようだ。
+
 WebRTCHacksの[記事](https://webrtchacks.com/dear-slack/)で言及されてない点については以上である。
 
 ## WebRTCHacks記事の補足
@@ -191,10 +210,19 @@ TURNを経由しなくても、UDPがブロックされているような環境�
 
 ### TURNについて
 
+#### TURN/UDPのみへの対応
+
 TURNの設定についてもTURN/UDPの利用に限定されているようであり、比較的厳しいネットワーク環境に置かれるユーザは、
 Slackの音声通話機能を使えない可能性が高い。
 本来はTURN/TCPまたはTURN/TLS(特に443で動作させる)を有効にすべきであるがそれも未実施だ。
 （これでも100%疎通するわけではない点に注意。厳格な企業プロキシはMITMするため、TLSを一旦解かれてしまうことがある）
+
+#### TURNに関するMISC事項
+
+- turnのURNは、 `turn:slack-calls9.slack-core.com:22466` などであり、slack-callsX で複数台のTURNサーバが設置されているようだ
+- TURNのusername/password(credential)は隠蔽されている。(JSで動的に取得)
+- TURNはAWSの一定数のリージョン（少なくともシンガポールと、北カリフォルニアは確認）にデプロイされている
+  - 最寄りのTURNは、AWS Route53のLBRやGeoDNSで取得しているのだと想定
 
 -----
 
