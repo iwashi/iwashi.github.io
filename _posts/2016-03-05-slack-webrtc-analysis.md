@@ -195,11 +195,17 @@ _getServer("screenhero.rooms.create", ...)
 のようなコードがminifyされたコードの中に見えることから分かる。
 ルームベースのシグナリングを提供しているようだ。
 
+### TURNについて
+
+- turnのURNは、 `turn:slack-calls9.slack-core.com:22466` などであり、slack-callsX で複数台のTURNサーバが設置されているようだ
+- TURNのusername/password(credential)は隠蔽されている。(JSで動的に取得)
+- TURNはAWSの一定数のリージョン（少なくともシンガポールと、北カリフォルニアは確認）にデプロイされている
+  - 最寄りのTURNは、AWS Route53のLBRやGeoDNSで取得しているのだと想定
+
 WebRTCHacksの[記事](https://webrtchacks.com/dear-slack/)で言及されてない点については以上である。
+以降では、WebRTCHacksの記事で多少わかりにくい部分の補足しておく。
 
 ## WebRTCHacks記事の補足
-
-以降では、WebRTCHacksの記事で多少わかりにくい部分を補足しておく。
 
 ### ICE-TCPについて
 
@@ -208,21 +214,17 @@ WebRTCHacksの[記事](https://webrtchacks.com/dear-slack/)で言及されてな
 TURNを経由しなくても、UDPがブロックされているような環境でWebRTCを利用可能になる。
 しかし、残念ながら先ほどのSDPを見るに、ICE-TCPはMCU側で対応しておらずUDPのみの利用にとどまっている。
 
-### TURNについて
-
-#### TURN/UDPのみへの対応
+### TURN/UDPのみへの対応
 
 TURNの設定についてもTURN/UDPの利用に限定されているようであり、比較的厳しいネットワーク環境に置かれるユーザは、
 Slackの音声通話機能を使えない可能性が高い。
 本来はTURN/TCPまたはTURN/TLS(特に443で動作させる)を有効にすべきであるがそれも未実施だ。
 （これでも100%疎通するわけではない点に注意。厳格な企業プロキシはMITMするため、TLSを一旦解かれてしまうことがある）
 
-#### TURNに関するMISC事項
+### なぜ強制的にTURNを経由させているのか？
 
-- turnのURNは、 `turn:slack-calls9.slack-core.com:22466` などであり、slack-callsX で複数台のTURNサーバが設置されているようだ
-- TURNのusername/password(credential)は隠蔽されている。(JSで動的に取得)
-- TURNはAWSの一定数のリージョン（少なくともシンガポールと、北カリフォルニアは確認）にデプロイされている
-  - 最寄りのTURNは、AWS Route53のLBRやGeoDNSで取得しているのだと想定
+想定にはなるが、初期のコール確立までの時間を減らし、UXを向上させるためと考えられる。
+なお、FaceTimeやWhatsAppも同様にTURNを強制経由している。(WhatsAppはさらに高度で、最初はTURN経由で途中でP2Pにスイッチ)
 
 -----
 
