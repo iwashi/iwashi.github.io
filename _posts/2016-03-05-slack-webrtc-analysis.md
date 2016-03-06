@@ -16,7 +16,7 @@ Slack音声通話機能の対応クライアントは、現時点では限定的
 ```Currently on Mac and Windows desktop apps and in Chrome; coming soon to mobile!```
 
 の通りで、Chromeまたはデスクトップのネイティブアプリとなる。
-音声機能が実装されていてこの種類の対応状況なら、もちろん利用技術はWebRTCと考えるのが素直(しかもScreenHeroを買収しており)だ。
+音声機能が実装されていてこの種類の対応状況なら、もちろん利用技術はWebRTCと考えるのが素直だ。(しかもWebRTCベースのスタートアップであるScreenHeroを買収していることもあり)
 ここで、最も気になるのは内部でWebRTCをどのように利用しているか、という点だ。
 
 すでに、WebRTCエンジニア御用達のWebRTCHacksでは[Dear Slack: why is your WebRTC so weak?](https://webrtchacks.com/dear-slack/)というタイトルで、Philipp Hancke氏(fippo)が記事を書いており、当該記事の中では簡単な説明がある。だが、述べられていない点も多い。
@@ -24,7 +24,7 @@ Slack音声通話機能の対応クライアントは、現時点では限定的
 そこで、本記事では、200万人を越えるアクティブユーザを抱えるSlackが、どのようにWebRTCを利用しているのか、いくつかポイントをまとめたいと思う。
 実際に、
 
-- DesktopAppとChrome間での音声通話時に、WebRTCのwebrtc-internalsからDumpを取得して解析
+- DesktopAppとChrome間での音声通話時に、Chromeのwebrtc-internalsからDumpを取得して解析
 - ChromeのJavaScriptをななめ読み
 
 して記事を書いており、もちろん不明な点は想定して書いている記述を含むものの、事実ベースの内容の記事になる。
@@ -42,9 +42,9 @@ Slack音声通話機能の対応クライアントは、現時点では限定的
 
 ## P2PのWebRTC利用は無し
 
-WebRTCは1:1のメディア・データ通信を実現するのであれば、P2Pトポロジでの通信を提供するのが一般的だ。つまり途中にサーバを介さないのが一般的だ。
+WebRTCは1:1のメディア・データ通信を実現するのであれば、P2Pトポロジでの通信を提供するのが一般的だ。つまり途中にサーバを介さないのが普通ということだ。
 にもかかわらず、Slackは1:1の接続において、必ず中継サーバを経由するようにしている。(これは過去のGoogle Hangoutと同様の形式)
-中継サーバとは具体的に言えば、TURNとMCUのことを示している。
+ここでの中継サーバとは具体的に言えば、TURNとMCUのことを示している。
 
 以下に1:1でのトポロジ図を掲載する。
 
@@ -52,7 +52,7 @@ WebRTCは1:1のメディア・データ通信を実現するのであれば、P2
 
 たとえ、隣の席で同一のLANにいる人と会話する場合も、この経路になる。
 後述するが、TURNはAWS上にデプロイされており、私の利用ケースでは東京リージョンではなく、
-シンガポールリージョンのインスタンスへ接続されていた。そのため、シンガポール経由で隣の席の人と音声通話してもらってると考えて良い。（超無駄）
+シンガポールリージョンのインスタンスへ接続されていた。そのため、 極論を言えばシンガポール経由で隣の席の人と音声通話してもらってると考えて良い。（超無駄）
 
 ## どのようにして、強制的にTURNを利用しているのか？
 
@@ -97,7 +97,7 @@ a=candidate:8 2 udp 2013266430 172.31.1.90 12004 typ host   ...★3
 まず、★1よりサーバ側のエンドポイントとして[janus](https://github.com/meetecho/janus-gateway)が利用されていることがわかる。
 janusはWebRTC *Gateway* であるため、MCUとしても振る舞えるし、IVRや他のVoIPとの相互接続も可能だ。(本記事では多人数会話向けにも利用されると想定して、MCUとして利用している前提で説明する)
 
-そして、★2でそれが核心に変わる。実際にjanus作者のLorenzo Miniero氏も、[ここ](https://webrtchacks.com/dear-slack/#comment-17598)でコメントしている通りで、JanusはRTP/SAVPFを依然として利用し続けている。
+そして、★2でそれが確信に変わる。実際にjanus作者のLorenzo Miniero氏も、[ココ](https://webrtchacks.com/dear-slack/#comment-17598)でコメントしている通りで、JanusはRTP/SAVPFを依然として利用し続けている。
 
 ★3より、tricleICEには対応しているが、MCU側はtrickleではなく先にICE候補を投げつけてきていることが分かる。これはMCUやSFUで一般的だ。なぜなら、ICE候補が既に分かっているからだ。
 
@@ -111,7 +111,7 @@ janusはWebRTC *Gateway* であるため、MCUとしても振る舞えるし、I
 通常のICE動作と同様に、host/srflx/relayの3つがとれる。
 
 hostやsrflxはほとんど意味がない。なぜらなば、このトランスポートアドレスでは先ほどの★3のプライベートアドレスに接続できないからだ。
-ポイントは最後のrelay(TURN)で、以下の様なアドレスがとれる：
+ポイントは最後のrelay(TURN)で、以下のようなアドレスがとれる：
 
 ```
 sdpMid: audio, sdpMLineIndex: 0, candidate: candidate:4184247995 1 udp 41754367 52.77.208.161 52017 typ relay raddr X.X.X.X rport 50512 generation 0 ufrag MQyVfDIb5jH9WrUh
@@ -174,10 +174,12 @@ a=candidate:34 1 udp 2013266431 172.31.1.90 12016 typ host
 ```
 
 基本は同一であるが、さきほどとはあえて違うところを1つ説明すると、★4の箇所である。
-実はMCUとChrome/DesktopApp間は2本のストリームを貼っている。
+さきほどICEにフォーカスするため説明を省略したが、offerではsendonlyがある。
+これの意味するところとして、実はMCUとChrome/DesktopApp間は2本のストリームを貼っている。
 1つがsendonlyで、もう1つがrecvonlyだ。（sendrecvではない)
+これはjanusが入口と出口を自由にして、プラグインで処理を変えられるようなアーキテクチャであるため、と考えられる。
 
-図で示すと以下の通りになる。(さきほどの図のより正確なバージョンと考えていただけると良い)
+ここまでの説明を図で示すと以下の通りになる。(さきほどの図の、より正確なバージョンと考えていただけると良い)
 
 <img src="/assets/images/topology_slack2.png" alt="slack webrtc topology" class="img-responsive">
 
