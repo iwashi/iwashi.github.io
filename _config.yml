@@ -23,3 +23,5 @@ exclude: [vendor]
 gems: 
   - jekyll-sitemap
   - jekyll-feed
+
+future: true
