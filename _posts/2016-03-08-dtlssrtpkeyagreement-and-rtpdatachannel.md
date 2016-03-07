@@ -17,7 +17,9 @@ tags: []
 WebRTCは歴史的に、メディアチャネル側の実装が先に進んだ。データチャネルの思想自体は最初からあったものの、DTLS-SCTPを利用すると最初から決定されているわけではなかった。その当時に、最初に実装されたのがRTPを用いたデータチャネル実装である。この実装を利用するのを明示的に指定するためのオプションが `RtpDataChannel` であり、 `RTCPeerConnection` のオプションに渡す。オプションは、以下のように指定して用いる：
 
 ```js
+{
   RtpDataChannels: true
+}
 ```
 
 ## DtlsSrtpKeyAgreement とは？
@@ -27,7 +29,9 @@ WebRTCのP2P間での暗号方式は、SDES/SRTPおよびDTLS/SRTPが候補に�
 DTLS/SRTPを優先的に使うか指定するためのオプションが標題の `DtlsSrtpKeyAgreement` である。`RTCPeerConnection` のオプションであり、以下のように用いる：
 
 ```js
+{
   DtlsSrtpKeyAgreement:true
+}
 ```
 
 *1: シグナリングサーバでMan in the Middleされた場合は、完全に全て漏れるのでDTLS-SRTPにも限界がある。その課題解決のためにZRTPがある。
