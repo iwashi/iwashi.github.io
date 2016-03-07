@@ -18,7 +18,7 @@ WebRTCは歴史的に、メディアチャネル側の実装が先に進んだ�
 
 ```js
 {
-  RtpDataChannels: true
+  RtpDataChannel: true
 }
 ```
 
