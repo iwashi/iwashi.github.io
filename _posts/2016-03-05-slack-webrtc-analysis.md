@@ -4,6 +4,7 @@ title: "Slackにおける音声通話機能のWebRTC観点からの解析"
 description: "Slackにおける音声通話機能のWebRTC観点からの解析"
 category: 
 tags: []
+permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 ## はじめに

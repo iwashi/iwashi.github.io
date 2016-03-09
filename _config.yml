@@ -25,3 +25,5 @@ gems:
   - jekyll-feed
 
 future: true
+
+permalink: /:categories/:year/:month/:day/:title

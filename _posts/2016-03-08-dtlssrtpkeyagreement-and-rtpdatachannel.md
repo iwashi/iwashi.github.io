@@ -4,6 +4,7 @@ title: "DtlsSrtpKeyAgreement および RtpDataChannel についての記録"
 description: ""
 category: 
 tags: []
+permalink: /:categories/:year/:month/:day/:title.html
 ---
 
 ## この文書 is 何？
