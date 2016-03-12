@@ -9,9 +9,9 @@ tags: []
 ## はじめに
 
 WebRTCを触ってから少し時間が経つと、P2Pの通信だけでなく、より接続確率を高めるためにTURNを利用する人も増えてくると思う。
-TURNは自前で建てても良いし（AWSなどの場合は、転送量課金に注意）、Turn as as Service(例えば[XIRSYS](https://xirsys.com/)など)を使ってもいい。
+TURNは自前で建てても良いし（AWSなどの場合は、転送量課金に注意）、Turn as as Service(例えば[XIRSYS](https://xirsys.com/)など)を使ってもいい。また、[SkyWay](https://nttcom.github.io/skyway/features.html)もTURNも提供している。
 
-いずれの手段を使ったとしても、TURNを利用することができる。利用は簡単でJavaScriptであれば、以下オプションを利用してあげるだけだ。
+いずれにせよ、どの手段を使ったとしても、TURNを利用することができる。利用は簡単で、JavaScriptであれば以下のオプションを利用してあげるだけだ。
 
 {% highlight javascript %}
 let configuration = {
@@ -22,13 +22,15 @@ let configuration = {
 }
 {% endhighlight %}
 
-問題となるのは、Turnを実際に利用するためにはどのようにすれば、どのように試験すれば良いのか、という点だ。試験方法は大きく2つある。
+問題となるのは、TURNを実際に利用するためにはどのようにすれば、どのように試験すれば良いのか、という点だ。試験方法は大きく2つある。
 
 ## 試験方法その1(TURN単体のテスト)
 
+注："試験方法その1"は、自前でTURNを構築した人向けの方法であり、自前で構築していない場合は、"試験方法その2"から確認いただきたい
+
 Turnの定番実装である、[rfc5766-turn-server](https://github.com/coturn/rfc5766-turn-server)や[coturn](https://github.com/coturn/coturn)は、[turnutils_uclient](https://github.com/coturn/coturn/wiki/turnutils_uclient)というツールを配布している。
 
-これを公式ページ上の手順にしたがってインストールして、以下のように実行すれば良い。
+これを公式ページ上の手順にしたがってインストールして、ローカルなどからテストしたいTURNサーバに対して、以下のように実行すれば良い。
 
 ```
 $ turnutils_uclient -t -p PORT_NUM -u 'yourusername' -w 'secret' YOUR.TURNSERVER.DQDN
@@ -45,14 +47,13 @@ $ turnutils_uclient -t -p PORT_NUM -u 'yourusername' -w 'secret' YOUR.TURNSERVER
 
 単体で上手くいっていたとしても、エンドツーエンドで上手くいっているとは限らない。そのため実際にブラウザを2つ並べて試験したくなる。ここでの問題は、何も考えなしに試験をしてしまうと、TURNではなくP2Pで接続されてしまうという点だ。
 
-いくつか試験方法はあるが、今回はMacやLinuxで利用できる `pf` コマンドを利用した方法を紹介する。(なお、MacはEl captitanのより前のバージョンでは、`ipfw`が利用できたが、El Capitanからは`pf`のみになっている)
+いくつか試験方法はあるが、今回はMac OSやLinuxで利用できる `pf` コマンドを利用した方法を紹介する。(なお、MacはEl captitanのより前のバージョンでは、`ipfw`が利用できたが、El Capitanからは`pf`のみになっている)
 
-`pf` は一種のファイアウォールのような機能を提供していて、任意の条件のパケットの通過・遮断を制御できる。ここでは、WebRTCの試験向けなので、特定のホスト向けのUDPを全遮断するケースを書いてみる。
+`pf` は一種のファイアウォールのような機能を提供していて、任意の条件のパケットの通過・遮断を制御できる。ここでは、WebRTCの試験向けなので、特定のホスト向けのUDPを全遮断するケースを書いてみる。検証に利用しているのはMac OS(El Captain)だ。
 
 ### 1. pf用のコンフィギュレーションを修正する
 
-pfの設定ファイルは、`/etc/pf.conf`に保存されている。
-
+Macでは、pfの設定ファイルは、`/etc/pf.conf`に保存されている。
 
 ```
 $ sudo vi /etc/pf.conf
@@ -62,6 +63,8 @@ block out log proto udp from any to X.X.X.X
 ```
 
 これによって、X.X.X.X 宛てのUDPパケットは全てブロックされるようになる。結果としてUDPホールパンチングが通らず、P2Pの接続は確立できない。
+
+block行にある`log`は、ブロックしたパケットのログを別の手段で確認するための設定だ。本記事では解説しないが、詳細は[コチラ](http://ftp.tuwien.ac.at/.vhost/www.openbsd.org/xxx/faq/pf/ja/logging.html)を参照いただきたい。
 
 ### 2. コンフィギュレーションの反映
 
