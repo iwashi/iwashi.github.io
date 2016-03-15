@@ -17,6 +17,19 @@ SlackはTURNを強制的に利用し、Janus経由でエンドツーエンドの
 
 なお、前回同様にWebRTCの基礎知識を持った人を想定して記事を書くので、基礎的な知識の解説は実施しない。必要な場合は、前回同様に[HTML5 Expert.jpの解説記事](https://html5experts.jp/iwase/12585/)辺りを先に読んで欲しい。
 
+では本題に進む。
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 検証における条件は以下の通り
 
 - 検証条件
@@ -139,7 +152,7 @@ WebRTCで複数のストリームを配信する場合、いくつかの方法�
 
 googLocalCandidateTypeや、googRemoteCandidateTypeよりP2Pで接続されているように見えるが、アドレス帯はjanusが持っているプライベートIPであり、ここで表示されているのはJanus間の接続となる。ChromeやSlack Desktop Appから、これらのアドレス帯域に対してTURN接続しているというのは[以前の記事](http://iwashi.co/2016/03/05/slack-webrtc-analysis.html)で説明したとおりだ。
 
-(ちなみに個人的に1つだけ疑問があって・・・googLocalAddressに記載される10.21.119.21:59582はどの情報から取れているか把握できていない。googRemoteAddressは相手方から飛んでくるSDPに記載あるが、googLocalAddressの入手元が謎…。onicecandidate(relay)にも載っていない)
+(ちなみに個人的に1つだけ疑問であった、googLocalAddressに記載される10.21.119.21:59582はどの情報から取れているか把握できていない、という点はPeerReflexiveなのでUDPホールパンチング中に解決されるアドレスだと後から気づいた)
 
 ## TURNで利用しているソフトウェアについて
 
