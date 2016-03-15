@@ -161,7 +161,7 @@ googLocalCandidateTypeや、googRemoteCandidateTypeよりP2Pで接続されて�
 
 ## TURNで利用しているソフトウェアについて
 
-Coturnではなく、[RFC5766 TURN Server](http://rfc5766-turn-server.googlecode.com/svn-history/r1805/branches/v3.2/src/ns_turn_defs.h)を利用しているようだ。しかもRFC 5766 TURN Serverの中でも。やや古いバージョンを利用している。をこれは、Wireshark上で返ってくるTURNのレスポンスを見るとわかる：
+Coturnではなく、[RFC5766 TURN Server](http://rfc5766-turn-server.googlecode.com/svn-history/r1805/branches/v3.2/src/ns_turn_defs.h)を利用しているようだ。しかもRFC 5766 TURN Serverの中でもやや古いバージョンを利用している。これは、Wireshark上で返ってくるTURNのレスポンスを見るとわかる：
 
 <img src="/assets/images/turn_response_slack.png" alt="slack webrtc topology" class="img-responsive">
 
