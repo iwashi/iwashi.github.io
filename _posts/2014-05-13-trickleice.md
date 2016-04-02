@@ -18,6 +18,17 @@ TrickleICEを一言で表すと、
 
 以下に、背景を含め詳細を解説する。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ------
 
 ### 最低限のおさらい（STUN/TURN)

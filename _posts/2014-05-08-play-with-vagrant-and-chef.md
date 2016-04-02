@@ -10,6 +10,17 @@ tags: []
 
 VagrantとChefでの手順や対応等を以下でメモする。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## vagrant up時にguest additionsの警告
 
 Vagrant up時に以下の警告がでたときは

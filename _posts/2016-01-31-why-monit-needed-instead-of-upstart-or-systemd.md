@@ -27,6 +27,17 @@ exec foorbar
 respawn
 ```
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 本題：なぜmonitが必要なのか？
 
 予期せぬ理由でプロセスが死んだときに、適切な処置を施すようにプロセス監視は必須だ。

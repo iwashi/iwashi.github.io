@@ -10,6 +10,17 @@ Ubuntuではiptablesを永続保持（再起動しても動くように）する
 色々な方法があるみたいだが、サクッとできる方法として ``iptables-persistent``を使う方法がある。
 本記事ではそれの簡単な紹介。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### 進め方
 
 全体の流れとしては、

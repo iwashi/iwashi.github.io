@@ -20,6 +20,17 @@ WebRTCの動向を追いかけている人であれば、ORTCについて耳に�
 - WebRTCについてある程度知識がある人向け
   - SDP何それ？な人は、[HTML5Rocks](http://www.html5rocks.com/en/tutorials/webrtc/infrastructure/?redirect_from_locale=ja)あたりを読んでから、以降を読むと分かりやすいと思う
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ## 2. なぜORTCが登場したのか？
 
 ### 2.1. WebRTC 1.0の世界

@@ -27,7 +27,16 @@ LTの中でDTLS、RTP、SCTPについて喋ったのですが、LTという時�
 
 <iframe src="//www.slideshare.net/slideshow/embed_code/37569990" width="425" height="355" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/iwashi86/20140801-web-rtcmeetup3r3" title="WebRTCを支えるマイナーなプロトコルSRTP/DTLS/SCTPを分かった気になる" target="_blank">WebRTCを支えるマイナーなプロトコルSRTP/DTLS/SCTPを分かった気になる</a> </strong> from <strong><a href="//www.slideshare.net/iwashi86" target="_blank">iwashi86</a></strong> </div>
 
-----
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ### RTPは再送を諦めているだけじゃない
 Slide27枚目で、パケットロスが起きた場合の対応として、「再送をGiveUp」すると説明していますが、RTPにおけるパケットロスは実は大切な役割を果たしています。それは何なのかというと、UDPのヘッダを思い返してみるとわかります。

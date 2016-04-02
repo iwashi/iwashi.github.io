@@ -23,6 +23,18 @@ let configuration = {
 {% endhighlight %}
 
 問題となるのは、TURNを実際に利用するためにはどのようにすれば、どのように試験すれば良いのか、という点だ。試験方法は大きく2つある。
+以下で試験方法2つについて解説する。
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 試験方法その1(TURN単体のテスト)
 

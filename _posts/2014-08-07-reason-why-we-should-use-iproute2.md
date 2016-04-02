@@ -19,6 +19,17 @@ RHEL7やCentOS7では、多くのエンジニアが使っていたであろうif
 について、気になって色々と調べてみたので、本記事では調べて分かった、
 移行に前向きになる理由3つを以下にまとめてみる。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 -----
 
 #### 1. 高機能だから

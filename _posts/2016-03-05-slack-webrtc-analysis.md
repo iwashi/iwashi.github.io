@@ -39,6 +39,17 @@ Slack音声通話機能の対応クライアントは、現時点では限定的
 
 ということで本題。ポイントをまとめていく。
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 -----
 
 ## P2PのWebRTC利用は無し

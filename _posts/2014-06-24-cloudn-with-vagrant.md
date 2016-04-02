@@ -26,7 +26,16 @@ $ vagrant destroy
 
 ![cloudnとvagrantの実行イメージ](/assets/images/20140624sc.jpg)
 
------
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- iwashico_middle -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4737755123993145"
+     data-ad-slot="6593095118"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## 全体の流れ
 いくつか下準備等もあるので、はじめに全体の流れを書いて、後から詳説する。
