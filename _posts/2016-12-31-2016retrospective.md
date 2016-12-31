@@ -38,7 +38,8 @@ tags: []
 - 書いた記事
   - [本Blogで11本](http://iwashi.co/)
   - [WebRTCHacks](https://webrtchacks.com/slack-webrtc-slacking/)
-
+  - [社内ISUCON](http://qiita.com/iwashi86/items/97a7a97b59492cff181a)
+  
 WebRTC系の記事が多めで、特にSlackにおけるWebRTC利用を解説した記事がバズっていた。個人ブログで書いた記事2つをくっつけて、WebRTCHacksに記事を投稿できたのも良かった。
 
 #### インプット
