@@ -5,7 +5,6 @@ description: "2016年の振り返りと2017年に向けて"
 category: 
 tags: []
 ---
-{% include JB/setup %}
 
 ## 今年の振り返り
 
