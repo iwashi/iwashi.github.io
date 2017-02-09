@@ -36,10 +36,10 @@ STUN/TURNを利用しないのではなく、反対に全てのトラフィッ�
 
 ### UDPポート範囲を制限する
 
-2016/9頃からChrome M54から導入された機能として、UDPのポートレンジを制限する機能がある。[参考](https://groups.google.com/forum/#!topic/discuss-webrtc/S5yex8rNIjA/discussion)
+2016/9頃からChrome M54から導入された機能として、UDPのポートレンジを制限する機能がある。[参考](https://groups.google.com/forum/#!topic/discuss-webrtc/S5yex8rNIjA/discussion)。
 エンタプライズな社内ネットワークは、必要最低限しかポートを開放しないポリシーも多いため、このポートレンジ制限機能は非常に役立つ。
 
-情シスのネットワーク担当者と連携して開放するポートレンジを最小限に狭めることができる。具体的にはChromeポリシーから規定できる。[参考](https://support.google.com/chrome/a/answer/187202?hl=ja)
+情シスのネットワーク担当者と連携して開放するポートレンジを最小限に狭めることができる。具体的にはChromeポリシーから規定できる。[参考](https://support.google.com/chrome/a/answer/187202?hl=ja)。
 
 ### 認証HTTPプロキシを越えてTURNにつなぐ
 
@@ -56,5 +56,4 @@ Chromeでもこれまでは対応しておらず、既存Issueだったが最近
 #### 自前構築・運用つらい問題
 
 WebRTCのサーバ群を自前で構築するのは、なかなか茨の道なので注意。特に、エンドユーザが使って通信NGが起きた場合のサポート・切り分けが大変。
-この辺りは [Chris KrankyABOUT MECONTACT MEDISCLAIMERSUBSCRIBE  
-Build vs Buy Your WebRTC services](https://www.chriskranky.com/build-vs-buy-your-webrtc-services/) の記事によくまとまっている。
+この辺りは [Build vs Buy Your WebRTC services](https://www.chriskranky.com/build-vs-buy-your-webrtc-services/) の記事によくまとまっている。
