@@ -9,7 +9,7 @@
 title: iwashi.co
 email: iwase.yoshimasa+website@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  WebRTC、インフラ、自動化、開発プロセスについて書く個人サイト
+  Tech things, mainly about WebRTC. Personal blog(Not related with company). 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://iwashi.co" # the base hostname & protocol for your site
 twitter_username: iwashi86
