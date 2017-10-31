@@ -8,10 +8,12 @@ tags: []
 
 本記事は、[Building and Scaling Video Conferencing in Slack](https://www.youtube.com/watch?v=VJj4ddWDTbs)から取ったメモです。かなり意訳気味にとってるので、何か間違いなどあれば [@iwashi86](https://twitter.com/iwashi86) までお願いします。
 
+補足: [voluntas](https://twitter.com/voluntas)氏にコメントいただき、 `Slackの開発チーム`-> `SlackのWebRTC開発チーム` へ修正しました。
+
 - Slackの良いところ
   - スクリーン共有越しに相手のユーザの画面をコントロールできる
   - Screenhero時代からのゴールだった
-- Slackの開発チームは6人、だいたいどの時代でも
+- SlackのWebRTC開発チームは6人、だいたいどの時代でも
 - クライアントアーキテクチャ
   - 最初は、自前カスタムのWebRTCのライブラリを使ってた
   - ただメンテがつらすぎて、Electron/Chromium に自然に含まれるほうに移行した
