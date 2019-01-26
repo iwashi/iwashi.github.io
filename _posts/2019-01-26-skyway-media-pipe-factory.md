@@ -8,8 +8,6 @@ tags: []
 
 Jan 23rd 2019, NTT Communications launched [SkyWay Media Pipeline Factory](https://webrtc.ecl.ntt.com/m-pipe/). The official news release is found at [NTT Com’s web page](https://www.ntt.com/en/about-us/press-releases/news/article/2019/0123.html). The article is described for not only engineers but also business people, which leads to lack of some interesting tech aspects. As one of engineers who’s working on WebRTC, I’d like to add two perspectives to the SkyWay Media Pipeline Factory. Note that these perspectives are not official but just personal ones. 
 
-<img src="/assets/images/mpipe.jpg" alt="the official image of SkyWay Media Pipeline Factory" class="img-responsive">
-
 ## 1. Managed SkyWay WebRTC Gateway in docker container, containing libwebrtc inside
 
 The core component of SkyWay Media Pipeline Factory is [SkyWay WebRTC Gateway](https://github.com/skyway/skyway-webrtc-gateway). SkyWay WebRTC Gateway is built on the top of [libwebrtc](https://webrtc.googlesource.com/src). 
