@@ -9,9 +9,9 @@
 title: iwashi.co
 email: iwase.yoshimasa+website@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Tech things, mainly about WebRTC. Personal blog(Not related with company). 
+  Tech things. Personal blog(Not related with company). 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://iwashi.co" # the base hostname & protocol for your site
+url: "https://iwashi.co" # the base hostname & protocol for your site
 twitter_username: iwashi86
 github_username:  iwashi
 

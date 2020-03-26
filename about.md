@@ -12,22 +12,7 @@ permalink: /about/
 
 ### Slides - 発表資料
 
-- [某社内勉強会 - とあるエンジニアの技術勉強法](http://www.slideshare.net/iwashi86/ss-58640407)
-- [Developers Summit 2016 - 外注が主な企業でどのように内製開発を立ち上げ・進化させているのか？](http://www.slideshare.net/iwashi86/ss-58456004)
-- [WebRTC Conference Japan 2016 - WebRTCアプリケーションのテストの課題・解決方法について](http://www.slideshare.net/iwashi86/webrtc-58402646)
-- [TPAC 2015 WebRTC WG 最新レポート](http://www.slideshare.net/td-nttcom/webrtc-tpac-2015)
-- [WebRTC Meetup Japan - Extreme testing of WebRTC Applications](http://www.slideshare.net/iwashi86/extreme-testing-of-webrtc-applications)
-- [社内勉強会を継続成長させる方法](http://www.slideshare.net/td-nttcom/ss-54500215)
-- [Developers Summit 2015 Summer - 大企業で実現するイマドキの内製開発](http://www.slideshare.net/td-nttcom/ss-51109460) 
-- [WebRTC Meetup#8 - WebRTCのICEを知る](http://www.slideshare.net/iwashi86/webrtcice) 
-- [July Tech Festa 2015 - ChefからAnsibleへ引っ越したい人のためのAnsible入門](http://www.slideshare.net/iwashi86/chefansibleansible-50941335)
-- [みんなで構築・運用の話をしよう第1回 - Micro service architecture マイクロサービスアーキテクチャの話 -](http://www.slideshare.net/iwashi86/micro-service-architecture-46205859) 
-- [WebRTC Meetup#7 - SDP for WebRTC - From Basics to Maniacs -](http://www.slideshare.net/iwashi86/20150311-web-rtcmeetup7sdp) 
-- [WebRTC Meetup#6 - WebRTC is secure, or not secure? - WebRTC セキュリティ概説 -](http://www.slideshare.net/iwashi86/20150128-web-rtcsecurity) 
-- [WebRTC Meetup#5 - WebRTCの裏側にあるNATの話 - A talk on NAT behind WebRTC](http://www.slideshare.net/iwashi86/webrtcnat-a-talk-on-nat-behind-webrtc) 
-- [WebRTC Meetup#3 - WebRTCを支えるマイナーなプロトコルSRTP/DTLS/SCTPを分かった気になる](http://www.slideshare.net/iwashi86/20140801-web-rtcmeetup3r3)
-- [WebRTC Meetup#2 - WebRTC弱点議論](http://www.slideshare.net/iwashi86/webrtc-meetup-tokyo-2-webrtc)
-- [WebRTC Meetup#1 - PeerJS 3分クッキング](pages/webrtcmeetup1402422/)
+- [SlideShare](https://www.slideshare.net/iwashi86/)
 
 ### Contribution - 寄稿(翻訳含む)
 
