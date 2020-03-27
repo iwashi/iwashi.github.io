@@ -171,9 +171,9 @@ Google DocsやConfluenceなど、共同編集できるドキュメントサー�
 
 ## 参考
 
-- https://martinfowler.com/articles/effective-video-calls.html
-- https://www.thoughtworks.com/insights/blog/11-tips-improve-remote-meetings
-- https://blog.sli.do/how-to-lead-facilitate-virtual-team-meetings/
-- https://about.gitlab.com/company/culture/all-remote/meetings/
-- http://backspace.fm/episode/331/
-- http://backspace.fm/episode/334/
+- [How to do effective video calls](https://martinfowler.com/articles/effective-video-calls.html)
+- [11 Tips to improve remote meetings](https://www.thoughtworks.com/insights/blog/11-tips-improve-remote-meetings)
+- [How to Lead and Facilitate Virtual Team Meetings](https://blog.sli.do/how-to-lead-facilitate-virtual-team-meetings/)
+- [All-Remote Meetings](https://about.gitlab.com/company/culture/all-remote/meetings/)
+- [backspace.fm #331:リモートワーク必須時代の遠隔会議術](http://backspace.fm/episode/331/)
+- [backspace.fm #334:リモートコミュニケーションの品質をいかに上げるか](http://backspace.fm/episode/334/)
