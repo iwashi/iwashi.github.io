@@ -10,6 +10,8 @@ tags: []
 
 コードコンプリートなどで有名な、スティーブ・マコネル氏の[More Effective Agile](https://www.nikkeibp.co.jp/atclpubmkt/book/20/P86580/) の和訳版を読んだので、その簡単な書評とメモを書く。
 
+<a target="_blank"  href="https://www.amazon.co.jp/gp/product/B089KFKB5H/ref=as_li_tl?ie=UTF8&camp=247&creative=1211&creativeASIN=B089KFKB5H&linkCode=as2&tag=iwashi86-22&linkId=b6f5782125ea597f2099024aba23934f"><img border="0" src="//ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&MarketPlace=JP&ASIN=B089KFKB5H&ServiceVersion=20070822&ID=AsinImage&WS=1&Format=_SL250_&tag=iwashi86-22" ></a><img src="//ir-jp.amazon-adsystem.com/e/ir?t=iwashi86-22&l=am2&o=9&a=B089KFKB5H" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+
 ## 書評
 
 非常に現実目線のアジャイル書籍。アジャイルの書籍は、アジャイルを当然のことながら推している人によって書かれている書籍が多いが、この書籍は完全に傾倒するのではなく、実際にソフトウェア開発に応用してみた経験から書かれている。そのため、読んでいると、「あぁ、たしかにこれあったな」「ここは悩むところだった」という点についてうなずきながら読める。
