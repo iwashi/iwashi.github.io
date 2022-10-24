@@ -18,6 +18,7 @@ permalink: /about/
 
 ### Contribution - 寄稿など(翻訳含む)
 
+- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
 - [Logme Tech: 実践「最高のアジャイルチーム」を作る方法](https://logmi.jp/tech/articles/320513)
 - WebRTC系のスライド翻訳
   - [WebRTC Conference Japan 2016 - WebRTCステータスアップデート](https://docs.google.com/presentation/d/1Z44qq92kMnqweDoqiPw1ro84TdTVeCiwFrmIy8N_pKI/edit#slide=id.g1193d3ae62_2_73)
