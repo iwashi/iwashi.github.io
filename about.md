@@ -13,8 +13,8 @@ permalink: /about/
 
 ### Slides - 発表資料
 
-- [SpeakerDeck](https://speakerdeck.com/iwashi86)
-- 古いスライド: [SlideShare](https://www.slideshare.net/iwashi86/)
+- 2020年6月以降 [SpeakerDeck](https://speakerdeck.com/iwashi86)
+- 2020年5月以前 [SlideShare](https://www.slideshare.net/iwashi86/)
 
 ### Contribution - 寄稿など(翻訳含む)
 
