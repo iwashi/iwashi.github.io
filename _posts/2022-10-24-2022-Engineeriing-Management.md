@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "EMのトレンド？もしくはその兆し (2022年)"
-description: "EMのトレンドを簡単にまとめている記事。"
+description: "EM(Engineering Management)のトレンドを簡単にまとめている記事。"
 category: 
 tags: []
 ---
 
-2022年昨今のEM界隈を見ていて、1つトレンドもしくは兆しがあるなぁ、と思っていることがあります。端的に言ってしまえば、EMを専門職種として切り出して、人（や組織）のマネジメントに専念させるパターンが出てきている、ということです。
+2022年昨今のEngineering Management(EM)界隈を見ていて、1つトレンドもしくは兆しがあるなぁ、と思っていることがあります。端的に言ってしまえば、EMを専門職種として切り出して、人（や組織）のマネジメントに専念させるパターンが出てきている、ということです。
 
 もちろん、以前からこのような形態をとられている企業もあると思います。しかし、おそらくは専門性を高めている社員がキャリアラダーの1つとして、プレイングマネージャー的にマネジメントに携わるケースが多いのではないでしょうか。
 
@@ -44,7 +44,7 @@ Chatworkでは、直近取り組んだ「ピープルマネジメント部の新
 
 ### 2. Timee社の例
 
-2つ目の例は、自身の主宰するPodcastである fukabori.fm の ep.74([74. PMFしているスタートアップがスケールする上での組織課題と解法 w/ kameike](https://fukabori.fm/episode/74)) でTimee CTO の [@kameike](https://twitter.com/kameike) さんが語られていることに当たります。
+2つ目の例は、自身の主宰するPodcastである fukabori.fm の ([ep74. PMFしているスタートアップがスケールする上での組織課題と解法 w/ kameike](https://fukabori.fm/episode/74)) でTimee CTO の [@kameike](https://twitter.com/kameike) さんが語られていることに当たります。
 
 具体的には
 
