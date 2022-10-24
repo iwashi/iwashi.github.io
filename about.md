@@ -7,16 +7,18 @@ permalink: /about/
 ### Find me on
 
 - [fukabori.fm](https://fukabori.fm/)
-- [GitHub](https://github.com/iwashi)
 - [Twitter](https://twitter.com/iwashi86)
 - [Linkedin](http://jp.linkedin.com/pub/yoshimasa-iwase/a0/2a7/576)
+- [GitHub](https://github.com/iwashi)
 
 ### Slides - 発表資料
 
-- [SlideShare](https://www.slideshare.net/iwashi86/)
+- [SpeakerDeck](https://speakerdeck.com/iwashi86)
+- 古いスライド: [SlideShare](https://www.slideshare.net/iwashi86/)
 
-### Contribution - 寄稿(翻訳含む)
+### Contribution - 寄稿など(翻訳含む)
 
+- [Logme Tech: 実践「最高のアジャイルチーム」を作る方法](https://logmi.jp/tech/articles/320513)
 - WebRTC系のスライド翻訳
   - [WebRTC Conference Japan 2016 - WebRTCステータスアップデート](https://docs.google.com/presentation/d/1Z44qq92kMnqweDoqiPw1ro84TdTVeCiwFrmIy8N_pKI/edit#slide=id.g1193d3ae62_2_73)
   - [2015年第4四半期のWebRTC標準化アップデート](http://www.slideshare.net/iwashi86/2015-4-webrtc)
