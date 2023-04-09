@@ -11,15 +11,23 @@ permalink: /about/
 - [Linkedin](http://jp.linkedin.com/pub/yoshimasa-iwase/a0/2a7/576)
 - [GitHub](https://github.com/iwashi)
 
-### Slides - 発表資料
+### Slides - 発表資料や書き起こし
 
-- 2020年6月以降 [SpeakerDeck](https://speakerdeck.com/iwashi86)
-- 2020年5月以前 [SlideShare](https://www.slideshare.net/iwashi86/)
-
-### Contribution - 寄稿など(翻訳含む)
-
-- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+- [SpeakerDeck](https://speakerdeck.com/iwashi86)
 - [Logme Tech: 実践「最高のアジャイルチーム」を作る方法](https://logmi.jp/tech/articles/320513)
+
+### Publication - 出版物
+
+- [ユーザーの問題解決とプロダクトの成功を導く　エンジニアのためのドキュメントライティング](https://amzn.to/3mmgfvB)
+- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+
+### Interview - インタビュー記事など
+
+- [fukabori.fm の中の人 岩瀬 義昌 さんに「日本の伝統的大企業」を Hack する方法を深掘りしました！｜ NTT コミュニケーションズの変貌を知る（前編）](https://www.seplus.jp/dokushuzemi/blog/2022/07/interview_with_iwashi_about_how2change_nttcom_1.html)
+- [「EMやること多すぎ問題」が組織にもたらす弊害は？Chatworkの失敗事例に学ぶパフォーマンス最大化の秘訣【田中佑樹✖️岩瀬義昌】](https://type.jp/et/feature/20815/)
+
+### WebRTC - WebRTC周りの記事(やや古い)
+
 - WebRTC系のスライド翻訳
   - [WebRTC Conference Japan 2016 - WebRTCステータスアップデート](https://docs.google.com/presentation/d/1Z44qq92kMnqweDoqiPw1ro84TdTVeCiwFrmIy8N_pKI/edit#slide=id.g1193d3ae62_2_73)
   - [2015年第4四半期のWebRTC標準化アップデート](http://www.slideshare.net/iwashi86/2015-4-webrtc)
