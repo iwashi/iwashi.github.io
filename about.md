@@ -4,17 +4,20 @@ title: About
 permalink: /about/
 ---
 
-### Find me on
+## SNSなど
 
 - [fukabori.fm](https://fukabori.fm/)
-- [Twitter](https://twitter.com/iwashi86)
+- [X(前Twitter)](https://twitter.com/iwashi86)
+- [threads](https://www.threads.net/@iwashi_86)
 - [Linkedin](http://jp.linkedin.com/pub/yoshimasa-iwase/a0/2a7/576)
 - [GitHub](https://github.com/iwashi)
+
+## 各種資料
 
 ### Slides - 発表資料や書き起こし
 
 - [SpeakerDeck](https://speakerdeck.com/iwashi86)
-- [Logme Tech: 実践「最高のアジャイルチーム」を作る方法](https://logmi.jp/tech/articles/320513)
+- [ログミー Tech](https://logmi.jp/persons/6000)
 
 ### Publication - 出版物
 
@@ -23,6 +26,7 @@ permalink: /about/
 
 ### Interview - インタビュー記事など
 
+- [NTTを変えることで日本のIT業界を変えたい。転職ではなく転籍という選択で見つけた「大義」](https://findy-code.io/engineer-lab/ntt-iwashi)
 - [fukabori.fm の中の人 岩瀬 義昌 さんに「日本の伝統的大企業」を Hack する方法を深掘りしました！｜ NTT コミュニケーションズの変貌を知る（前編）](https://www.seplus.jp/dokushuzemi/blog/2022/07/interview_with_iwashi_about_how2change_nttcom_1.html)
 - [「EMやること多すぎ問題」が組織にもたらす弊害は？Chatworkの失敗事例に学ぶパフォーマンス最大化の秘訣【田中佑樹✖️岩瀬義昌】](https://type.jp/et/feature/20815/)
 
