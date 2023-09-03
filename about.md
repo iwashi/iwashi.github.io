@@ -1,10 +1,25 @@
 ---
 layout: page
-title: About
+title: このサイトについて
 permalink: /about/
 ---
 
-## SNSなど
+## 自己紹介
+
+- 名前/ID: 岩瀬 義昌 (Yoshimasa Iwase) / iwashi
+- 本業の略歴
+	- NTT東日本(2009-2014)
+		- 開発部署にてSE・アーキテクトとして大規模IP電話システムのウォーターフォール型開発
+	- NTTコミュニケーションズ(2014-)
+		- 2014-2019 R&DにてソフトウェアエンジニアとしてWebRTCプラットフォームの内製によるアジャイル開発
+		- 2019-2021 HRにて人材開発・組織開発
+		- 2021-2023 R&Dにてプロダクトマネジメント・アジャイル開発の全社推進
+		- 2023 R&Dにて生成AIプロジェクトのリード
+- サイドワーク
+	- 2021- Stockmark株式会社にて Co-VPoE 
+	- 2021- 早稲田大学 人間科学部 非常勤講師（モバイルプログラミング）
+
+### 各種SNS
 
 - [fukabori.fm](https://fukabori.fm/)
 - [X(前Twitter)](https://twitter.com/iwashi86)
@@ -21,8 +36,15 @@ permalink: /about/
 
 ### Publication - 出版物
 
-- [ユーザーの問題解決とプロダクトの成功を導く　エンジニアのためのドキュメントライティング](https://amzn.to/3mmgfvB)
-- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+- 書籍
+	- [ユーザーの問題解決とプロダクトの成功を導く　エンジニアのためのドキュメントライティング](https://amzn.to/3mmgfvB)
+- 雑誌
+	- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+
+### 主な講演
+
+- [Regional Scrum Gathering Tokyo 2023 クロージングキーノート](https://2023.scrumgatheringtokyo.org/#speakers)
+- [Developers Summit 2021: Effective Remote Working ～リモートワークで最大の効果を得るために〜 (ベストスピーカー賞（3位）)](https://event.shoeisha.jp/devsumi/20210218)
 
 ### Interview - インタビュー記事など
 
