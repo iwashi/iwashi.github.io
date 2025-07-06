@@ -14,7 +14,7 @@ permalink: /about/
 		- 2014-2019 R&DにてソフトウェアエンジニアとしてWebRTCプラットフォームの内製によるアジャイル開発
 		- 2019-2021 HRにて人材開発・組織開発
 		- 2021-2023 R&Dにてプロダクトマネジメント・アジャイル開発の全社推進
-		- 2023 R&Dにて生成AIプロジェクトのリード
+		- 2023- R&Dにて生成AIプロジェクトのリード
 - サイドワーク
 	- 2021-2024/7 Stockmark株式会社にて Co-VPoE
 	- 2021- 早稲田大学 人間科学部 非常勤講師（モバイルプログラミング）
@@ -107,8 +107,13 @@ permalink: /about/
 - [SpeakerDeck](https://speakerdeck.com/iwashi86)
 - [ログミー Tech](https://logmi.jp/persons/6000)
 
+### Interview - インタビューなど
 
-### Interview - インタビュー記事など
+#### 動画
+
+<iframe width="100%" height="450" src="https://www.youtube.com/embed/Ijzeb5kQhxI?si=IRHc3sB1NxdZEMoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%; aspect-ratio: 16/9;"></iframe>
+
+#### テキスト
 
 - [NTTを変えることで日本のIT業界を変えたい。転職ではなく転籍という選択で見つけた「大義」](https://findy-code.io/engineer-lab/ntt-iwashi)
 - [fukabori.fm の中の人 岩瀬 義昌 さんに「日本の伝統的大企業」を Hack する方法を深掘りしました！｜ NTT コミュニケーションズの変貌を知る（前編）](https://www.seplus.jp/dokushuzemi/blog/2022/07/interview_with_iwashi_about_how2change_nttcom_1.html)
