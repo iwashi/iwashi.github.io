@@ -50,8 +50,10 @@ permalink: /about/
     </a>
   </div>
 </div>
-- 雑誌
-	- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+
+#### 雑誌
+
+- [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
 
 ### 主な講演
 
