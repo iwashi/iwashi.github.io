@@ -10,11 +10,13 @@ permalink: /about/
 - 本業の略歴
 	- NTT東日本(2009-2014)
 		- 開発部署にてSE・アーキテクトとして大規模IP電話システムのウォーターフォール型開発
-	- NTTコミュニケーションズ(2014-)
+	- NTTコミュニケーションズ(2014-2025/6)
 		- 2014-2019 R&DにてソフトウェアエンジニアとしてWebRTCプラットフォームの内製によるアジャイル開発
 		- 2019-2021 HRにて人材開発・組織開発
 		- 2021-2023 R&Dにてプロダクトマネジメント・アジャイル開発の全社推進
 		- 2023- R&Dにて生成AIプロジェクトのリード
+	- NTTドコモビジネス(2025/7-)
+		- 2025/7- R&Dにて生成AIプロジェクトのリード
 - サイドワーク
 	- 2021-2024/7 Stockmark株式会社にて Co-VPoE
 	- 2021- 早稲田大学 人間科学部 非常勤講師（モバイルプログラミング）
@@ -22,7 +24,6 @@ permalink: /about/
 ### 各種SNS
 
 <div style="display: flex; flex-wrap: wrap; gap: 15px; align-items: center; margin-bottom: 20px;">
-
   
   <a href="https://twitter.com/iwashi86" style="display: flex; align-items: center; gap: 8px; text-decoration: none; color: inherit;">
     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
