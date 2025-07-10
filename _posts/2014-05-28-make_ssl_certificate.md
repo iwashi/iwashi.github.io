@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Nginxでオレオレ証明書作成するときの手順メモ"
-description: ""
-category: 
+title: Nginxでオレオレ証明書作成するときの手順メモ
+description: ''
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-05-28-make_ssl_certificate_ogp.png
 ---
 
 ## Nginxのインストール -> オレオレSSL証明書を作成するときのメモ

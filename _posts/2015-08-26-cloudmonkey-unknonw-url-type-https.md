@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "cloudmonkeyでunknonw url type httpsが出るときの対応"
-description: "cloudmonkeyでunknonw url type httpsが出るときの対応方針の説明"
-category: 
+title: cloudmonkeyでunknonw url type httpsが出るときの対応
+description: cloudmonkeyでunknonw url type httpsが出るときの対応方針の説明
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-08-26-cloudmonkey-unknonw-url-type-https_ogp.png
 ---
 
 ## cloudmonkeyでunknonw url type httpsが出るときの対応

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebRTCの歴史が変わった日 - ORTC実装の登場"
-description: "ORTC実装の登場によりWebRTCの歴史が変わった日"
-category: 
+title: WebRTCの歴史が変わった日 - ORTC実装の登場
+description: ORTC実装の登場によりWebRTCの歴史が変わった日
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-09-19-the-day-when-webrtc-chnaged-the-history_ogp.png
 ---
 
 ついにマイクロソフトのEdgeチームから、「EdgeでORTCが動作」が公式にアナウンスされた。

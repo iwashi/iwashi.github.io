@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "TOEIC Writing(ライティング)で200を取ったときの勉強法"
-description: "TOEIC Writing(ライティング)で200を取ったときの勉強法"
-category: 
+title: TOEIC Writing(ライティング)で200を取ったときの勉強法
+description: TOEIC Writing(ライティング)で200を取ったときの勉強法
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-03-22-toeic-writing_ogp.png
 ---
 
 ## はじめに

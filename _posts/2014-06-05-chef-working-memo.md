@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Vagrant & Chef を連携する際のメモ"
-description: "VagrantとChef周りでコケたときのメモ。"
-category: 
+title: Vagrant & Chef を連携する際のメモ
+description: VagrantとChef周りでコケたときのメモ。
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-06-05-chef-working-memo_ogp.png
 ---
 
 ## VagrantのマルチVM

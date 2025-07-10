@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "AnsibleとJenkinsを組み合わせた際にバッファなしで出力する方法"
-description: "AnsibleとJenkinsを組み合わせた際にバッファなしで出力する方法"
-category: 
+title: AnsibleとJenkinsを組み合わせた際にバッファなしで出力する方法
+description: AnsibleとJenkinsを組み合わせた際にバッファなしで出力する方法
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-01-19-ansible-and-jenkins-with-no-buffer-output_ogp.png
 ---
 
 JenkinsからAnsibleを叩いて、自動的にConfigurationする際に、

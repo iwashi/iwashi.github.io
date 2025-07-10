@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Ubuntuでiptablesの設定をiptables-persistentで永続化する"
-description: "Ubuntuでiptablesの設定をiptables-persistentで永続化する"
-category: 
+title: Ubuntuでiptablesの設定をiptables-persistentで永続化する
+description: Ubuntuでiptablesの設定をiptables-persistentで永続化する
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-01-16-ubuntu-iptables-persistent_ogp.png
 ---
 
 Ubuntuではiptablesを永続保持（再起動しても動くように）するにはちょっと工夫が必要。

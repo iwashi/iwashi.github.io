@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "エンタープライズ向けWebRTCの外堀が埋まってきている"
-description: "エンタープライズ向けWebRTCの外堀が埋まってきている"
-category: 
+title: エンタープライズ向けWebRTCの外堀が埋まってきている
+description: エンタープライズ向けWebRTCの外堀が埋まってきている
+category: null
 tags: []
+ogp: /assets/images/ogp/2017-02-10-enterprise-webrtc_ogp.png
 ---
 
 本記事は、WebRTCをエンタープライズで利用したいと考えている人（例えば情シスの人）向けに、WebRTCの技術的な内容をいくつかまとめた記事。

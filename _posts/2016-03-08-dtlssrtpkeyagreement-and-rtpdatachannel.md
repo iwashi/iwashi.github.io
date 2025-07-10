@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "DtlsSrtpKeyAgreement および RtpDataChannel についての記録"
-description: ""
-category: 
+title: DtlsSrtpKeyAgreement および RtpDataChannel についての記録
+description: ''
+category: null
 tags: []
 permalink: /:categories/:year/:month/:day/:title.html
+ogp: /assets/images/ogp/2016-03-08-dtlssrtpkeyagreement-and-rtpdatachannel_ogp.png
 ---
 
 ## この文書 is 何？

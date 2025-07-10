@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "Slackにおける音声通話機能のWebRTC観点からの解析"
-description: "Slackにおける音声通話機能のWebRTC観点からの解析"
-category: 
+title: Slackにおける音声通話機能のWebRTC観点からの解析
+description: Slackにおける音声通話機能のWebRTC観点からの解析
+category: null
 tags: []
 permalink: /:categories/:year/:month/:day/:title.html
+ogp: /assets/images/ogp/2016-03-05-slack-webrtc-analysis_ogp.png
 ---
 
 ## はじめに

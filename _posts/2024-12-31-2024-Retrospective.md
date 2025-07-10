@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "2024 ふりかえり"
-description: "2024 ふりかえり"
-category: 
+title: 2024 ふりかえり
+description: 2024 ふりかえり
+category: null
 tags: []
-ogp:
+ogp: /assets/images/ogp/2024-12-31-2024-Retrospective_ogp.png
 ---
 
 ここ2-3年は別の場所に書いていたが、他の方のふりかえりポストを読んで「いいな」と思ったので、年越しする前に久々にこちらで記事を書いてみる。思いつくままに雑多に。

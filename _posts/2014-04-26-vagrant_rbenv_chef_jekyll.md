@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Vagrant rbenv chef jekyll メモ集"
-description: ""
-category: 
+title: Vagrant rbenv chef jekyll メモ集
+description: ''
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-04-26-vagrant_rbenv_chef_jekyll_ogp.png
 ---
 
 ## ポスト全体像

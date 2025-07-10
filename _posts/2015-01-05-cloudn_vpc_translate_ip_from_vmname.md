@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Cloudn VPCにて、VM名からIPを翻訳するワンライナー"
-description: "Cloudn VPCにて、VM名からIPを翻訳するワンライナー"
-category: 
+title: Cloudn VPCにて、VM名からIPを翻訳するワンライナー
+description: Cloudn VPCにて、VM名からIPを翻訳するワンライナー
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-01-05-cloudn_vpc_translate_ip_from_vmname_ogp.png
 ---
 
 CloudnのようなIaaS基盤を使うと、サーバに振られるPublicIPは動的に決定される。

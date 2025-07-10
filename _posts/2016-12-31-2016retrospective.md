@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "2016年の振り返りと2017年に向けて"
-description: "2016年の振り返りと2017年に向けて"
-category: 
+title: 2016年の振り返りと2017年に向けて
+description: 2016年の振り返りと2017年に向けて
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-12-31-2016retrospective_ogp.png
 ---
 
 ## 今年の振り返り

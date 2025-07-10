@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "EMのトレンド？もしくはその兆し (2022年)"
-description: "EM(Engineering Management)のトレンドを簡単にまとめている記事。"
-category: 
+title: EMのトレンド？もしくはその兆し (2022年)
+description: EM(Engineering Management)のトレンドを簡単にまとめている記事。
+category: null
 tags: []
+ogp: /assets/images/ogp/2022-10-24-2022-Engineeriing-Management_ogp.png
 ---
 
 2022年昨今のEngineering Management(EM)界隈を見ていて、1つトレンドもしくは兆しがあるなぁ、と思っていることがあります。端的に言ってしまえば、EMを専門職種として切り出して、人（や組織）のマネジメントに専念させるパターンが出てきている、ということです。

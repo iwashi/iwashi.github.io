@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Cloudn OpenNW(VPC)にて複数NICするときの挙動"
-description: "Cloudn OpenNW(VPC)にて複数NICするときの挙動"
-category: 
+title: Cloudn OpenNW(VPC)にて複数NICするときの挙動
+description: Cloudn OpenNW(VPC)にて複数NICするときの挙動
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-12-25-cloudn_vpc_template_with_multi_nics_ogp.png
 ---
 
 CloudnのVPCタイプは、任意のプライベートIPを使えたりして、サービス構築に便利。

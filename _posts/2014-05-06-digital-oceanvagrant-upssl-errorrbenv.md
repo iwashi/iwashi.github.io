@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Digital Oceanのvagrant upでSSL errorが出た時の対応"
-description: ""
-category: 
+title: Digital Oceanのvagrant upでSSL errorが出た時の対応
+description: ''
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-05-06-digital-oceanvagrant-upssl-errorrbenv_ogp.png
 ---
 
 ## Digital Oceanをvagrant upするときにSSLで怒られたときの対応
