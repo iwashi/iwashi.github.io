@@ -9,7 +9,7 @@
   <meta name=twitter:card content=summary>
   <meta name=twitter:site content="@iwashi86">
   <meta name=twitter:url content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <meta name=twitter:title content="iwashi.co">
+  <meta name=twitter:title content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
   <meta name=twitter:description content="{% if page.description %}{{ page.description | escape }}{% else %}{{ site.description }}{% endif %}">
   <meta name=twitter:image content="https://iwashi.co/assets/images/ogp-min.png">
 
