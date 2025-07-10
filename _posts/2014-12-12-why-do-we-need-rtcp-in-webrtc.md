@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebRTCにて(S)RTCPが必要な理由"
-description: "WebRTCにて(S)RTCPが必要な理由"
-category: 
+title: WebRTCにて(S)RTCPが必要な理由
+description: WebRTCにて(S)RTCPが必要な理由
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-12-12-why-do-we-need-rtcp-in-webrtc_ogp.png
 ---
 
 This post is a No.12 article of WebRTC Advent Calendar 2014

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "2015年の振り返りと2016年に向けて"
-description: "2015年の振り返りと2016年に向けて"
-category: 
+title: 2015年の振り返りと2016年に向けて
+description: 2015年の振り返りと2016年に向けて
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-01-05-2015retrospective_ogp.png
 ---
 
 2015年の技術絡みの振り返りをしつつ、2016年にやりたいことをまとめておこうと思う。

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "googTransportTypeの注意点"
-description: "googTransportTypeの注意点"
-category: 
+title: googTransportTypeの注意点
+description: googTransportTypeの注意点
+category: null
 tags: []
+ogp: /assets/images/ogp/2017-02-17-webrtc-chrome-debugging-tips_ogp.png
 ---
 
 WebRTCのデバッグで、非常に簡単に使えて便利なものがChromeの"chrome://webrtc-internals"だ。少し見方に癖があるかもしれないが、多彩な情報が取得できるので、開発時に非常に役に立つ。

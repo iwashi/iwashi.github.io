@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "インストール jdk 1.7 and maven 3.0.5"
-description: "インストール jdk 1.7 and maven 3.0.5"
-category: 
+title: インストール jdk 1.7 and maven 3.0.5
+description: インストール jdk 1.7 and maven 3.0.5
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-06-08-install-jdk-17-and-maven-305_ogp.png
 ---
 
 CentOS6に、Java 1.7とMaven 3.0.5をインストールするときの手順メモ。

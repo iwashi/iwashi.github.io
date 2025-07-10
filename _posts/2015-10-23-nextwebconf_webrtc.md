@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました"
-description: "次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました"
-category: 
+title: 次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました
+description: 次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-10-23-nextwebconf_webrtc_ogp.png
 ---
 
 2015/10/18(日)に開催された次世代Webカンファレンスで、WebRTCのセッションオーナーをしてきました。

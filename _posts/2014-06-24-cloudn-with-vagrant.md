@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "CloudnとVagrantを組み合わせて使う方法"
-description: "CloudnでVagrantを利用する方法"
-category: 
+title: CloudnとVagrantを組み合わせて使う方法
+description: CloudnでVagrantを利用する方法
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-06-24-cloudn-with-vagrant_ogp.png
 ---
 
 [Cloudn](http://www.ntt.com/cloudn/)とVagrantを組み合わせて使えると非常に便利なのだけど、

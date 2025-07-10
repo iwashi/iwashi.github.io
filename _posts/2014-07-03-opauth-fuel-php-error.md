@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "FuelPHPのOPAuthでハマったこと"
-description: "FuelPHPのOPAuthでハマったこと"
-category: 
+title: FuelPHPのOPAuthでハマったこと
+description: FuelPHPのOPAuthでハマったこと
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-07-03-opauth-fuel-php-error_ogp.png
 ---
 
 FuelPHPにてFacebook向けのOPAuthを試していたら半日ハマったので備忘メモ。fuelPHPのログに出るエラー内容は以下のとおり。

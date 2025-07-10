@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "ORTCについてそろそろ書いてみる"
-description: "ORTC and WebRTC"
-category:
+title: ORTCについてそろそろ書いてみる
+description: ORTC and WebRTC
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-08-13-ortc-and-webrtc_ogp.png
 ---
 
 ## 1. はじめに

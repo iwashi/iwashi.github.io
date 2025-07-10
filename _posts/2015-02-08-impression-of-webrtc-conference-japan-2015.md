@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebRTC Conference Japan 2015の感想"
-description: "WebRTC Conference Japan 2015の感想"
-category: 
+title: WebRTC Conference Japan 2015の感想
+description: WebRTC Conference Japan 2015の感想
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-02-08-impression-of-webrtc-conference-japan-2015_ogp.png
 ---
 
 先週の木曜金曜で、[WebRTC Conference Japan](http://webrtcconference.jp/)に参加してきた。業務として参加しているので、仕事チックなことはここには書けないけど、それ以外の雑多な感想は書いてみようと思う。

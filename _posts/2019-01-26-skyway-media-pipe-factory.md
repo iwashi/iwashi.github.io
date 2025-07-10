@@ -1,9 +1,11 @@
 ---
 layout: post
-title: "SkyWay Media Pipeline Factory from the point view of an enginner"
-description: "The perspective of SkyWay Media Pipeline Factory is described from the point view of engineer"
-category: 
+title: SkyWay Media Pipeline Factory from the point view of an enginner
+description: The perspective of SkyWay Media Pipeline Factory is described from the
+  point view of engineer
+category: null
 tags: []
+ogp: /assets/images/ogp/2019-01-26-skyway-media-pipe-factory_ogp.png
 ---
 
 Jan 23rd 2019, NTT Communications launched [SkyWay Media Pipeline Factory](https://webrtc.ecl.ntt.com/m-pipe/en). The official news release is found at [NTT Com’s web page](https://www.ntt.com/en/about-us/press-releases/news/article/2019/0123.html). The article is described for not only engineers but also business people, which leads to lack of some interesting tech aspects. As one of engineers who’s working on WebRTC, I’d like to add two perspectives to the SkyWay Media Pipeline Factory. Note that these perspectives are not official but just personal ones. 

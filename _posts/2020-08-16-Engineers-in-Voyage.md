@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Engineers in VOYAGE - 事業をエンジニアリングする技術者たち - を読んだ"
-description: "Engineers in VOYAGE の書評など"
-category: 
+title: Engineers in VOYAGE - 事業をエンジニアリングする技術者たち - を読んだ
+description: Engineers in VOYAGE の書評など
+category: null
 tags: []
+ogp: /assets/images/ogp/2020-08-16-Engineers-in-Voyage_ogp.png
 ---
 
 ## はじめに

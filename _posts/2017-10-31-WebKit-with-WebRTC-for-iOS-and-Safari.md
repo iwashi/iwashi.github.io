@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebKit with WebRTC for iOS and Safari 講演から取ったメモ"
-description: "WebKit with WebRTC for iOS and Safari 講演から取ったメモ"
-category: 
+title: WebKit with WebRTC for iOS and Safari 講演から取ったメモ
+description: WebKit with WebRTC for iOS and Safari 講演から取ったメモ
+category: null
 tags: []
+ogp: /assets/images/ogp/2017-10-31-WebKit-with-WebRTC-for-iOS-and-Safari_ogp.png
 ---
 
 本記事は[WebKit with WebRTC for iOS and Safari](https://www.youtube.com/watch?v=4gG5HXVOByY)から取ったメモです。かなり意訳気味にとってるので、何か間違いなどあれば [@iwashi86](https://twitter.com/iwashi86) までお願いします。

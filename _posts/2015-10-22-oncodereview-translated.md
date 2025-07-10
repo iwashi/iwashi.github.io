@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[翻訳] コードレビューについて"
-description: "[翻訳] コードレビューについて"
-category: 
+title: '[翻訳] コードレビューについて'
+description: '[翻訳] コードレビューについて'
+category: null
 tags: []
+ogp: /assets/images/ogp/2015-10-22-oncodereview-translated_ogp.png
 ---
 
 この記事は[::..: glen.nu :.: ramblings :.: on code review :.::](http://glen.nu/ramblings/oncodereview.php)の意訳記事です。[@9len](https://twitter.com/9len)氏の許可を受けて投稿しています。誤り・修正などがありましたら、[@iwashi86](https://twitter.com/iwashi86)までご連絡いただけますと幸いです。

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebRTCでTURN接続を試験する方法"
-description: "WebRTCでTURN接続を試験する方法"
-category: 
+title: WebRTCでTURN接続を試験する方法
+description: WebRTCでTURN接続を試験する方法
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-03-13-how-to-test-turn-relay_ogp.png
 ---
 
 ## はじめに

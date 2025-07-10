@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "WebRTC Data Channelについて - W3CとIETF側から"
-description: "WebRTC Data Channelについて、W3CとIETF側からの解説を少ししてみた記事"
-category: 
+title: WebRTC Data Channelについて - W3CとIETF側から
+description: WebRTC Data Channelについて、W3CとIETF側からの解説を少ししてみた記事
+category: null
 tags: []
+ogp: /assets/images/ogp/2018-05-02-WebRTC-DataChannel_ogp.png
 ---
 
 WebRTCも誕生から5年以上経っており、Web上の記事も多く増えてきた。WebRTCには、大きくMedia ChannelとData Channelがあるが、後者のData Channelの日本語記事は非常に少ない。

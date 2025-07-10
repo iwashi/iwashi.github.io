@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Play with Vagrant and Chef"
-description: ""
-category:
+title: Play with Vagrant and Chef
+description: ''
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-05-08-play-with-vagrant-and-chef_ogp.png
 ---
 
 # VagrantとChefをさわっているときのメモ

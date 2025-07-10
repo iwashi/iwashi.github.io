@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Upstart/Systemdがあるにも関わらずなぜmonitが必要なのか"
-description: "Upstart/Systemdがあるにも関わらずなぜmonitが必要なのか"
-category: 
+title: Upstart/Systemdがあるにも関わらずなぜmonitが必要なのか
+description: Upstart/Systemdがあるにも関わらずなぜmonitが必要なのか
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-01-31-why-monit-needed-instead-of-upstart-or-systemd_ogp.png
 ---
 
 ## はじめに

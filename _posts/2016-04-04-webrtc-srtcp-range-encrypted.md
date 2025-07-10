@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "SRTCPの暗号化の範囲について"
-description: "SRTCPの暗号化の範囲について"
-category: 
+title: SRTCPの暗号化の範囲について
+description: SRTCPの暗号化の範囲について
+category: null
 tags: []
+ogp: /assets/images/ogp/2016-04-04-webrtc-srtcp-range-encrypted_ogp.png
 ---
 
 WebRTCではSRTCPが利用されているが、どこまで暗号化しているか忘れちゃうときがあるのでメモ。規定されているのは[RFC3711](https://www.ietf.org/rfc/rfc3711.txt)で、とてもわかりやすい図がある。

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "[書評] リモートワーク チームが結束する次世代型メソッド"
-description: "リモートワーク チームが結束する次世代型メソッドの書評など"
-category: 
+title: '[書評] リモートワーク チームが結束する次世代型メソッド'
+description: リモートワーク チームが結束する次世代型メソッドの書評など
+category: null
 tags: []
+ogp: /assets/images/ogp/2020-08-23-Work-Together-Anywhere-Impression_ogp.png
 ---
 
 ## はじめに

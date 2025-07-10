@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Chef ERROR: No resource or method named yum_repository の対処"
-description: "Chef ERROR: No resource or method named yum_repositoryの対処"
-category: 
+title: 'Chef ERROR: No resource or method named yum_repository の対処'
+description: 'Chef ERROR: No resource or method named yum_repositoryの対処'
+category: null
 tags: []
+ogp: /assets/images/ogp/2014-06-11-chef-error-no-resource-or-method-named-yum_repository_ogp.png
 ---
 
 ## Chefのyum_repositoryにて

@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Building and Scaling Video Conferencing in Slack 講演から取ったメモ"
-description: "Building and Scaling Video Conferencing in Slack 講演から取ったメモ"
-category: 
+title: Building and Scaling Video Conferencing in Slack 講演から取ったメモ
+description: Building and Scaling Video Conferencing in Slack 講演から取ったメモ
+category: null
 tags: []
+ogp: /assets/images/ogp/2017-10-31-Building-and-Scaling-Video-Conferencing-in-Slack_ogp.png
 ---
 
 本記事は、[Building and Scaling Video Conferencing in Slack](https://www.youtube.com/watch?v=VJj4ddWDTbs)から取ったメモです。かなり意訳気味にとってるので、何か間違いなどあれば [@iwashi86](https://twitter.com/iwashi86) までお願いします。
