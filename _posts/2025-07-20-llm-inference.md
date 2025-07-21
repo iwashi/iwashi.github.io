@@ -9,7 +9,7 @@ ogp: /assets/images/ogp/2025-07-20-llm-inference_ogp.png
 
 ## はじめに
 
-BentoMLより[LLM Inference Handbook](https://bentoml.com/llm/)という、LLMの推論をまとめたハンドブックがある。本記事ではハンドブックや他の情報も参照しつつ、自分のメモ用としてLM推論に関する技術をまとめていく。
+BentoMLによる[LLM Inference Handbook](https://bentoml.com/llm/)という、LLMの推論をまとめたハンドブックがある。本記事ではハンドブックや他の情報も参照しつつ、自分のメモ用としてLM推論に関する技術をまとめていく。
 
 ## LLMの推論と内部理解の必要性
 
