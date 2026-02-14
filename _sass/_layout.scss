@@ -250,6 +250,21 @@
             font-size: 18px;
         }
     }
+
+    .footnotes {
+        font-size: 0.9em;
+        line-height: 1.35;
+    }
+
+    .footnotes ol,
+    .footnotes li,
+    .footnotes p {
+        margin-bottom: calc($spacing-unit * 0.2);
+    }
+
+    .footnotes li > :last-child {
+        margin-bottom: 0;
+    }
 }
 
 /**
