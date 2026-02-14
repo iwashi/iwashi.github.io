@@ -62,20 +62,25 @@ permalink: /about/
 
 #### 書籍
 
-<div style="display: flex; gap: 20px; margin-bottom: 20px;">
-  <div style="flex: 1; text-align: center;">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-bottom: 20px; align-items: start;">
+  <div style="text-align: center;">
     <a href="https://amzn.to/45QyIEV">
-      <img src="{{ site.baseurl }}/assets/images/em_fortherestofus.jpg" alt="エンジニアリングが好きな私たちのための　エンジニアリングマネジャー入門" style="max-width: 100%; height: auto;">
+      <img src="{{ site.baseurl }}/assets/images/em_fortherestofus.jpg" alt="エンジニアリングが好きな私たちのための　エンジニアリングマネジャー入門" style="width: 100%; max-width: 240px; height: auto;">
     </a>
   </div>
-  <div style="flex: 1; text-align: center;">
+  <div style="text-align: center;">
     <a href="https://amzn.to/4lAb04d">
-      <img src="{{ site.baseurl }}/assets/images/elegantpuzzle.jpg" alt="エレガントパズル　エンジニアのマネジメントという難問にあなたはどう立ち向かうのか" style="max-width: 100%; height: auto;">
+      <img src="{{ site.baseurl }}/assets/images/elegantpuzzle.jpg" alt="エレガントパズル　エンジニアのマネジメントという難問にあなたはどう立ち向かうのか" style="width: 100%; max-width: 240px; height: auto;">
     </a>
   </div>
-  <div style="flex: 1; text-align: center;">
+  <div style="text-align: center;">
     <a href="https://amzn.to/3mmgfvB">
-      <img src="{{ site.baseurl }}/assets/images/documentwriting.jpg" alt="ユーザーの問題解決とプロダクトの成功を導く　エンジニアのためのドキュメントライティング" style="max-width: 100%; height: auto;">
+      <img src="{{ site.baseurl }}/assets/images/documentwriting.jpg" alt="ユーザーの問題解決とプロダクトの成功を導く　エンジニアのためのドキュメントライティング" style="width: 100%; max-width: 240px; height: auto;">
+    </a>
+  </div>
+  <div style="text-align: center;">
+    <a href="https://amzn.to/4agLqyz">
+      <img src="{{ site.baseurl }}/assets/images/engineeringleader.jpg" alt="エンジニアリングリーダー ―技術組織を育てるリーダーシップとセルフマネジメント" style="width: 100%; max-width: 240px; height: auto;">
     </a>
   </div>
 </div>
@@ -112,7 +117,18 @@ permalink: /about/
 
 #### 動画
 
-<iframe width="100%" height="450" src="https://www.youtube.com/embed/Ijzeb5kQhxI?si=IRHc3sB1NxdZEMoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="max-width: 100%; aspect-ratio: 16/9;"></iframe>
+<div style="display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;">
+  <div style="flex: 1 1 280px; min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+      <iframe src="https://www.youtube.com/embed/Ijzeb5kQhxI?si=IRHc3sB1NxdZEMoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+  </div>
+  <div style="flex: 1 1 280px; min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+      <iframe src="https://www.youtube.com/embed/rrvuhON1rs8?si=tdTnduIgLX8xIg0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+  </div>
+</div>
 
 #### テキスト
 
