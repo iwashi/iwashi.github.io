@@ -2,8 +2,7 @@
 layout: post
 title: TrickleICEとは - WebRTCの要素技術 -
 description: TrickelICEについて解説する記事
-category: null
-tags: []
+tags: [WebRTC, ネットワーク, 解説]
 ogp: /assets/images/ogp/2014-05-13-trickleice_ogp.png
 ---
 

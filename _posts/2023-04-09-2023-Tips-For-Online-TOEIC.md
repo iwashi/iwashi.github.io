@@ -2,8 +2,7 @@
 layout: post
 title: オンライン版のTOEIC(IP)で990点を取れたので準備したことや受けてわかったことのメモ
 description: オンライン版のTOEIC(IP)で990点を取れたので準備したことや受けてわかったことのメモ
-category: null
-tags: []
+tags: [TOEIC, 学習記録, まとめ]
 ogp: /assets/images/ogp/2023-04-09-2023-Tips-For-Online-TOEIC_ogp.png
 ---
 

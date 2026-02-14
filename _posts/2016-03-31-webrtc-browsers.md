@@ -2,8 +2,7 @@
 layout: post
 title: 2016/3末時点のWebRTCブラウザ対応状況まとめ
 description: 2016/3末時点のWebRTCブラウザ対応状況まとめ
-category: null
-tags: []
+tags: [WebRTC, ブラウザ, 調査]
 ogp: /assets/images/ogp/2016-03-31-webrtc-browsers_ogp.png
 ---
 

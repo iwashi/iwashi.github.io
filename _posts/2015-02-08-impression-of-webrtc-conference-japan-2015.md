@@ -2,8 +2,7 @@
 layout: post
 title: WebRTC Conference Japan 2015の感想
 description: WebRTC Conference Japan 2015の感想
-category: null
-tags: []
+tags: [WebRTC, カンファレンス, イベントレポート]
 ogp: /assets/images/ogp/2015-02-08-impression-of-webrtc-conference-japan-2015_ogp.png
 ---
 

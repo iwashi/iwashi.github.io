@@ -2,8 +2,7 @@
 layout: post
 title: WebRTCにて(S)RTCPが必要な理由
 description: WebRTCにて(S)RTCPが必要な理由
-category: null
-tags: []
+tags: [WebRTC, ネットワーク, 解説]
 ogp: /assets/images/ogp/2014-12-12-why-do-we-need-rtcp-in-webrtc_ogp.png
 ---
 

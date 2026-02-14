@@ -2,8 +2,7 @@
 layout: post
 title: 'phpMyAdminで #1146 Error が出ている場合の対応方法'
 description: how to cope with phpMyAdmin 1146 error
-category: null
-tags: []
+tags: [サーバー運用, トラブルシューティング]
 ogp: /assets/images/ogp/2015-04-22-how-to-cope-with-phpmyadmin-1146-error_ogp.png
 ---
 

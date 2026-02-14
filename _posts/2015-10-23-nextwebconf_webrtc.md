@@ -2,8 +2,7 @@
 layout: post
 title: 次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました
 description: 次世代WebカンファレンスでWebRTCのセッションオーナーをしてきました
-category: null
-tags: []
+tags: [WebRTC, カンファレンス, 登壇]
 ogp: /assets/images/ogp/2015-10-23-nextwebconf_webrtc_ogp.png
 ---
 

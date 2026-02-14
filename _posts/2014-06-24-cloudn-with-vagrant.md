@@ -2,8 +2,7 @@
 layout: post
 title: CloudnとVagrantを組み合わせて使う方法
 description: CloudnでVagrantを利用する方法
-category: null
-tags: []
+tags: [クラウド, 開発環境, 解説]
 ogp: /assets/images/ogp/2014-06-24-cloudn-with-vagrant_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: 効果的なリモート会議にするためのプラクティス - Effective Remote Meeting
 description: 効果的なリモート会議を実施するためのプラクティスを紹介している記事
-category: null
-tags: []
+tags: [リモートワーク, コミュニケーション, 解説]
 ogp: /assets/images/ogp/2020-03-27-Effective-Remote-Meeting_ogp.png
 ---
 

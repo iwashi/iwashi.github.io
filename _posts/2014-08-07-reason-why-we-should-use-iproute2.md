@@ -2,8 +2,7 @@
 layout: post
 title: net-tools(ifconfig等)からiproute2へ移行する3つの理由
 description: なぜnet-tools(ifconfig等)をやめてiproute2を使うのか。その理由についての説明記事。
-category: null
-tags: []
+tags: [ネットワーク, サーバー運用, 解説]
 ogp: /assets/images/ogp/2014-08-07-reason-why-we-should-use-iproute2_ogp.png
 ---
 

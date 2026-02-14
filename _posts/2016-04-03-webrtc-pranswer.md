@@ -2,8 +2,7 @@
 layout: post
 title: WebRTCのSDP typeにおけるpranswerとは
 description: WebRTCのSDP typeにおけるpranswerとは
-category: null
-tags: []
+tags: [WebRTC, 解説, 学習記録]
 ogp: /assets/images/ogp/2016-04-03-webrtc-pranswer_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: Node.jsのサーバサイドアプリをCloudn PaaSで10分で動かす
 description: Node.jsのサーバサイドアプリをCloudn PaaSで10分で動かす
-category: null
-tags: []
+tags: [プログラミング, クラウド, 解説]
 ogp: /assets/images/ogp/2014-07-20-nodejs-on-cloudn-paas_ogp.png
 ---
 

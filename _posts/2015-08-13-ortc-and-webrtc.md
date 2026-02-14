@@ -2,8 +2,7 @@
 layout: post
 title: ORTCについてそろそろ書いてみる
 description: ORTC and WebRTC
-category: null
-tags: []
+tags: [WebRTC, ネットワーク, 解説]
 ogp: /assets/images/ogp/2015-08-13-ortc-and-webrtc_ogp.png
 ---
 

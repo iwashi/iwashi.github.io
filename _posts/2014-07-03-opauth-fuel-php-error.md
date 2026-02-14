@@ -2,8 +2,7 @@
 layout: post
 title: FuelPHPのOPAuthでハマったこと
 description: FuelPHPのOPAuthでハマったこと
-category: null
-tags: []
+tags: [プログラミング, セキュリティ, トラブルシューティング]
 ogp: /assets/images/ogp/2014-07-03-opauth-fuel-php-error_ogp.png
 ---
 

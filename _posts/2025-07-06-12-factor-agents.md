@@ -2,8 +2,7 @@
 layout: post
 title: 12 Factor Agents まとめ
 description: 12 Factor Agents を簡単に解説した記事
-category: null
-tags: []
+tags: [生成AI, AIエージェント, まとめ]
 ogp: /assets/images/ogp/2025-07-06-12-factor-agents_ogp.png
 ---
 

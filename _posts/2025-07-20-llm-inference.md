@@ -2,8 +2,7 @@
 layout: post
 title: LLM推論に関する技術メモ
 description: LLM推論に関する技術のメモ記事です。APIを利用するのではなく、どちらかいうと内部の技術に焦点を当てています。
-category: null
-tags: []
+tags: [LLM, 生成AI, 解説]
 ogp: /assets/images/ogp/2025-07-20-llm-inference_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: WebRTC MediaServer(SFU/MCU)の情報まとめ
 description: WebRTC メディアサーバ(SFU/MCU)の情報まとめ
-category: null
-tags: []
+tags: [WebRTC, 音声通話, まとめ]
 ogp: /assets/images/ogp/2016-09-03-webrtc-sfu-mcu-summary_ogp.png
 ---
 

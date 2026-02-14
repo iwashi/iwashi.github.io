@@ -2,8 +2,7 @@
 layout: post
 title: 続：Slackにおける音声通話機能のWebRTC観点からの解析 - 多人数会議
 description: 続：Slackにおける音声通話機能のWebRTC観点からの解析 - 多人数会議
-category: null
-tags: []
+tags: [WebRTC, 音声通話, 調査]
 ogp: /assets/images/ogp/2016-03-14-slack-webrtc-multiparty-analysis_ogp.png
 ---
 

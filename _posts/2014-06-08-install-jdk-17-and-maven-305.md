@@ -2,8 +2,7 @@
 layout: post
 title: インストール jdk 1.7 and maven 3.0.5
 description: インストール jdk 1.7 and maven 3.0.5
-category: null
-tags: []
+tags: [開発環境, プログラミング, 学習記録]
 ogp: /assets/images/ogp/2014-06-08-install-jdk-17-and-maven-305_ogp.png
 ---
 

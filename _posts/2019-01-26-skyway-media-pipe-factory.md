@@ -3,8 +3,7 @@ layout: post
 title: SkyWay Media Pipeline Factory from the point view of an enginner
 description: The perspective of SkyWay Media Pipeline Factory is described from the
   point view of engineer
-category: null
-tags: []
+tags: [WebRTC, 音声通話, クラウド, 解説]
 ogp: /assets/images/ogp/2019-01-26-skyway-media-pipe-factory_ogp.png
 ---
 

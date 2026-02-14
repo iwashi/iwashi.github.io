@@ -2,8 +2,7 @@
 layout: post
 title: 2024 ふりかえり
 description: 2024 ふりかえり
-category: null
-tags: []
+tags: [ふりかえり, キャリア]
 ogp: /assets/images/ogp/2024-12-31-2024-Retrospective_ogp.png
 ---
 

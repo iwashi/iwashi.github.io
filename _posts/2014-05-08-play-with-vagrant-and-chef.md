@@ -2,8 +2,7 @@
 layout: post
 title: Play with Vagrant and Chef
 description: ''
-category: null
-tags: []
+tags: [開発環境, 自動化, 解説]
 ogp: /assets/images/ogp/2014-05-08-play-with-vagrant-and-chef_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: HubotをCloudn PaaS v2で動かす (CloudFoundryも対応)
 description: HubotをCloudn PaaS v2で動かす (CloudFoundryも対応)　なお、PaaSの仕様上でRedis抜きになる。
-category: null
-tags: []
+tags: [クラウド, 自動化, 解説]
 ogp: /assets/images/ogp/2014-07-21-hubot-on-cloudn-paas-without-redis_ogp.png
 ---
 

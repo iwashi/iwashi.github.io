@@ -2,8 +2,7 @@
 layout: post
 title: More Effective Agile を読んだ
 description: More Effective Agile の書評など
-category: null
-tags: []
+tags: [アジャイル, 組織, 書評]
 ogp: /assets/images/ogp/2020-07-10-More-Effective-Agile_ogp.png
 ---
 

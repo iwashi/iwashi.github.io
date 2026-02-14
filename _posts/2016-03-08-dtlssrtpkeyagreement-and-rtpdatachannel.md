@@ -2,8 +2,7 @@
 layout: post
 title: DtlsSrtpKeyAgreement および RtpDataChannel についての記録
 description: ''
-category: null
-tags: []
+tags: [WebRTC, 調査, 学習記録]
 permalink: /:categories/:year/:month/:day/:title.html
 ogp: /assets/images/ogp/2016-03-08-dtlssrtpkeyagreement-and-rtpdatachannel_ogp.png
 ---

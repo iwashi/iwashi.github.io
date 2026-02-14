@@ -2,8 +2,7 @@
 layout: post
 title: スクラムフェス大阪2025に登壇してきた
 description: スクラムフェス大阪2025のクロージングキーノートに登壇してきたので、そこで伝えたかったこと、感じたことを記しています。
-category: null
-tags: []
+tags: [アジャイル, カンファレンス, 登壇]
 ogp: /assets/images/ogp/2025-07-27-scrumfestosaka2025_ogp.png
 ---
 

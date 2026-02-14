@@ -2,8 +2,7 @@
 layout: post
 title: WebKit with WebRTC for iOS and Safari 講演から取ったメモ
 description: WebKit with WebRTC for iOS and Safari 講演から取ったメモ
-category: null
-tags: []
+tags: [WebRTC, ブラウザ, イベントレポート]
 ogp: /assets/images/ogp/2017-10-31-WebKit-with-WebRTC-for-iOS-and-Safari_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: 2020 ふりかえり
 description: 2020年のふりかえりを書く
-category: null
-tags: []
+tags: [ふりかえり, キャリア]
 ogp: /assets/images/ogp/2020-12-26-2020-Retrospective_ogp.png
 ---
 

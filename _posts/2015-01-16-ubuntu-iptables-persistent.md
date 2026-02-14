@@ -2,8 +2,7 @@
 layout: post
 title: Ubuntuでiptablesの設定をiptables-persistentで永続化する
 description: Ubuntuでiptablesの設定をiptables-persistentで永続化する
-category: null
-tags: []
+tags: [セキュリティ, サーバー運用, 解説]
 ogp: /assets/images/ogp/2015-01-16-ubuntu-iptables-persistent_ogp.png
 ---
 

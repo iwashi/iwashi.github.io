@@ -2,8 +2,7 @@
 layout: post
 title: 2015年の振り返りと2016年に向けて
 description: 2015年の振り返りと2016年に向けて
-category: null
-tags: []
+tags: [ふりかえり, キャリア]
 ogp: /assets/images/ogp/2016-01-05-2015retrospective_ogp.png
 ---
 

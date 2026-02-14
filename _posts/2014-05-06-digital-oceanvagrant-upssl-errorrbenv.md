@@ -2,8 +2,7 @@
 layout: post
 title: Digital Oceanのvagrant upでSSL errorが出た時の対応
 description: ''
-category: null
-tags: []
+tags: [開発環境, セキュリティ, トラブルシューティング]
 ogp: /assets/images/ogp/2014-05-06-digital-oceanvagrant-upssl-errorrbenv_ogp.png
 ---
 

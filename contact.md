@@ -1,6 +1,6 @@
 ---
 layout: page
-title: お問い合わせ/仕事の依頼
+title: お問い合わせ
 permalink: /contact/
 ---
 

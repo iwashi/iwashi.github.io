@@ -2,8 +2,7 @@
 layout: post
 title: Slackにおける音声通話機能のWebRTC観点からの解析
 description: Slackにおける音声通話機能のWebRTC観点からの解析
-category: null
-tags: []
+tags: [WebRTC, 音声通話, 調査]
 permalink: /:categories/:year/:month/:day/:title.html
 ogp: /assets/images/ogp/2016-03-05-slack-webrtc-analysis_ogp.png
 ---

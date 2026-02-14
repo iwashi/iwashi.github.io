@@ -2,8 +2,7 @@
 layout: post
 title: googTransportTypeの注意点
 description: googTransportTypeの注意点
-category: null
-tags: []
+tags: [WebRTC, ブラウザ, トラブルシューティング]
 ogp: /assets/images/ogp/2017-02-17-webrtc-chrome-debugging-tips_ogp.png
 ---
 

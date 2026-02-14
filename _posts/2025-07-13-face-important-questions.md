@@ -2,8 +2,7 @@
 layout: post
 title: 「うーん、よくわからない。」という回答は情報価値が高い
 description: The Mom Test の3章から学んだことをまとめている記事
-category: null
-tags: []
+tags: [コミュニケーション, 学習記録, 解説]
 ogp: /assets/images/ogp/2025-07-13-face-important-questions_ogp.png
 ---
 

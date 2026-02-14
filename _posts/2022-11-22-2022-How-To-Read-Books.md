@@ -2,8 +2,7 @@
 layout: post
 title: 色々試して行き着いた読書方法
 description: 色々な読書方法を試して最終的に行き着いた読書方法について説明するポストです
-category: null
-tags: []
+tags: [読書, 学習記録, 解説]
 ogp: /assets/images/ogp/2022-11-22-2022-How-To-Read-Books_ogp.png
 ---
 

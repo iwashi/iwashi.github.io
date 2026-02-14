@@ -2,8 +2,7 @@
 layout: post
 title: エンタープライズ向けWebRTCの外堀が埋まってきている
 description: エンタープライズ向けWebRTCの外堀が埋まってきている
-category: null
-tags: []
+tags: [WebRTC, 調査, 解説]
 ogp: /assets/images/ogp/2017-02-10-enterprise-webrtc_ogp.png
 ---
 

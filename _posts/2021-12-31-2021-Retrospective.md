@@ -2,8 +2,7 @@
 layout: post
 title: 2021 ふりかえり
 description: 2021年のふりかえりを書く
-category: null
-tags: []
+tags: [ふりかえり, キャリア]
 ogp: /assets/images/ogp/2021-12-31-2021-Retrospective_ogp.png
 ---
 

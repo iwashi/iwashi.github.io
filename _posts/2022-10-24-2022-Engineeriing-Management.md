@@ -2,8 +2,7 @@
 layout: post
 title: EMのトレンド？もしくはその兆し (2022年)
 description: EM(Engineering Management)のトレンドを簡単にまとめている記事。
-category: null
-tags: []
+tags: [エンジニアリングマネジメント, 組織, 調査]
 ogp: /assets/images/ogp/2022-10-24-2022-Engineeriing-Management_ogp.png
 ---
 

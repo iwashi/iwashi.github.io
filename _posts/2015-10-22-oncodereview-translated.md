@@ -2,8 +2,7 @@
 layout: post
 title: '[翻訳] コードレビューについて'
 description: '[翻訳] コードレビューについて'
-category: null
-tags: []
+tags: [プログラミング, コードレビュー]
 ogp: /assets/images/ogp/2015-10-22-oncodereview-translated_ogp.png
 ---
 

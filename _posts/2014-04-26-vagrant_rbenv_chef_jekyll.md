@@ -2,8 +2,7 @@
 layout: post
 title: Vagrant rbenv chef jekyll メモ集
 description: ''
-category: null
-tags: []
+tags: [開発環境, 自動化, 学習記録]
 ogp: /assets/images/ogp/2014-04-26-vagrant_rbenv_chef_jekyll_ogp.png
 ---
 

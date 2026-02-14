@@ -2,8 +2,7 @@
 layout: post
 title: SRTCPの暗号化の範囲について
 description: SRTCPの暗号化の範囲について
-category: null
-tags: []
+tags: [WebRTC, セキュリティ, 解説]
 ogp: /assets/images/ogp/2016-04-04-webrtc-srtcp-range-encrypted_ogp.png
 ---
 

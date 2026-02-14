@@ -2,8 +2,7 @@
 layout: post
 title: WebRTC Data Channelについて - W3CとIETF側から
 description: WebRTC Data Channelについて、W3CとIETF側からの解説を少ししてみた記事
-category: null
-tags: []
+tags: [WebRTC, ネットワーク, 解説]
 ogp: /assets/images/ogp/2018-05-02-WebRTC-DataChannel_ogp.png
 ---
 

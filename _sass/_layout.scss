@@ -245,3 +245,35 @@
         }
     }
 }
+
+/**
+ * Tag page
+ */
+.tag-page {
+    .tag-cloud {
+        margin-left: 0;
+        list-style: none;
+    }
+
+    .tag-cloud > li {
+        display: inline-block;
+        margin: 0 8px 8px 0;
+    }
+
+    .tag-cloud a {
+        display: inline-block;
+        padding: 4px 10px;
+        border: 1px solid $grey-color-light;
+        border-radius: 999px;
+    }
+
+    .tag-section {
+        margin-bottom: $spacing-unit;
+        scroll-margin-top: 70px;
+    }
+}
+
+.tag-count {
+    color: $grey-color;
+    font-size: $small-font-size;
+}

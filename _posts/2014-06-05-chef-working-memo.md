@@ -2,8 +2,7 @@
 layout: post
 title: Vagrant & Chef を連携する際のメモ
 description: VagrantとChef周りでコケたときのメモ。
-category: null
-tags: []
+tags: [開発環境, 自動化, トラブルシューティング]
 ogp: /assets/images/ogp/2014-06-05-chef-working-memo_ogp.png
 ---
 

@@ -2,8 +2,7 @@
 layout: post
 title: WebRTCの歴史が変わった日 - ORTC実装の登場
 description: ORTC実装の登場によりWebRTCの歴史が変わった日
-category: null
-tags: []
+tags: [WebRTC, 調査, 解説]
 ogp: /assets/images/ogp/2015-09-19-the-day-when-webrtc-chnaged-the-history_ogp.png
 ---
 

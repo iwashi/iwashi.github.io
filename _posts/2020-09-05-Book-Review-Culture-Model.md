@@ -2,8 +2,7 @@
 layout: post
 title: '[書評] カルチャーモデル　最高の組織文化のつくり方'
 description: カルチャーモデル　最高の組織文化のつくり方の書評とメモなど
-category: null
-tags: []
+tags: [書評, 組織, エンジニアリングマネジメント]
 ogp: /assets/images/ogp/2020-09-05-Book-Review-Culture-Model_ogp.png
 ---
 
