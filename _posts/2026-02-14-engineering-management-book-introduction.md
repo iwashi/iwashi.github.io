@@ -3,6 +3,10 @@ layout: post
 title:  1時間で読み終わるエンジニアリングマネジメント本を書き始めてみる
 description: 実践に絞ったエンジニアリングマネジメント本を連載形式で書くための導入。
 tags: [エンジニアリングマネジメント, 書籍, 連載]
+ogp: /assets/images/ogp/2026-02-14-engineering-management-book-introduction_ogp.png
+ogp_title: |
+  1時間で読み終わるエンジニアリング
+  マネジメント本を書き始めてみる
 ---
 
 ## はじめに

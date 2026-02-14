@@ -54,41 +54,48 @@ class OGPGenerator:
         """Wrap text to fit within max_width. Handles Japanese text without spaces."""
         draw = ImageDraw.Draw(Image.new('RGB', (1, 1)))
         lines = []
-        current_line = ""
-        
-        # For Japanese text, we need to handle character by character
-        i = 0
-        while i < len(text):
-            char = text[i]
-            test_line = current_line + char
-            bbox = draw.textbbox((0, 0), test_line, font=font)
-            width = bbox[2] - bbox[0]
-            
-            if width <= max_width:
-                current_line += char
-                i += 1
-            else:
-                if current_line:
-                    # Check if we can break at a better position
-                    # Avoid breaking before certain characters
-                    no_break_before = "、。！？」』）］｝】〉》"
-                    if i < len(text) and text[i] in no_break_before:
-                        # Move the punctuation to current line if it fits
-                        test_with_punct = current_line + text[i]
-                        bbox = draw.textbbox((0, 0), test_with_punct, font=font)
-                        if bbox[2] - bbox[0] <= max_width * 1.1:  # Allow slight overflow for punctuation
-                            current_line = test_with_punct
-                            i += 1
-                    
-                    lines.append(current_line)
-                    current_line = ""
-                else:
-                    # Single character is too wide (shouldn't happen with normal text)
-                    lines.append(char)
+
+        # Respect explicit line breaks in title text.
+        for segment in text.split('\n'):
+            if segment == "":
+                lines.append("")
+                continue
+
+            current_line = ""
+
+            # For Japanese text, we need to handle character by character
+            i = 0
+            while i < len(segment):
+                char = segment[i]
+                test_line = current_line + char
+                bbox = draw.textbbox((0, 0), test_line, font=font)
+                width = bbox[2] - bbox[0]
+
+                if width <= max_width:
+                    current_line += char
                     i += 1
-        
-        if current_line:
-            lines.append(current_line)
+                else:
+                    if current_line:
+                        # Check if we can break at a better position
+                        # Avoid breaking before certain characters
+                        no_break_before = "、。！？」』）］｝】〉》"
+                        if i < len(segment) and segment[i] in no_break_before:
+                            # Move the punctuation to current line if it fits
+                            test_with_punct = current_line + segment[i]
+                            bbox = draw.textbbox((0, 0), test_with_punct, font=font)
+                            if bbox[2] - bbox[0] <= max_width * 1.1:  # Allow slight overflow for punctuation
+                                current_line = test_with_punct
+                                i += 1
+
+                        lines.append(current_line)
+                        current_line = ""
+                    else:
+                        # Single character is too wide (shouldn't happen with normal text)
+                        lines.append(char)
+                        i += 1
+
+            if current_line:
+                lines.append(current_line)
         
         return lines
     
@@ -163,8 +170,9 @@ class OGPGenerator:
             # Parse YAML
             front_matter = yaml.safe_load(match.group(1))
             title = front_matter.get('title', '')
+            ogp_title = front_matter.get('ogp_title', title)
             
-            if not title:
+            if not ogp_title:
                 print(f"Warning: No title found in {md_path}")
                 return
             
@@ -173,7 +181,7 @@ class OGPGenerator:
             output_path = output_dir / output_filename
             
             # Generate OGP image
-            self.generate_ogp_image(title, output_path)
+            self.generate_ogp_image(ogp_title, output_path)
             
         except Exception as e:
             print(f"Error processing {md_path}: {e}")
