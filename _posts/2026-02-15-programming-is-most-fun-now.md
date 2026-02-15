@@ -1,7 +1,7 @@
 ---
 layout: post
 title: プログラミングは今が一番楽しい
-description: Javaで挫折しかけた大学時代から、WebRTC PF開発、マネジメント、そしてAIコーディングを経て、いま改めてプログラミングが一番楽しいと感じている理由を書きました。
+description: Javaで始まり、WebRTC PF開発、マネジメント、そしてAIコーディングを経て、いま改めてプログラミングが一番楽しいと感じている理由を書きました。
 tags: [プログラミング, AI, キャリア]
 ogp: /assets/images/ogp/2026-02-15-programming-is-most-fun-now_ogp.png
 ---
