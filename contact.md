@@ -13,10 +13,10 @@ permalink: /contact/
     - 事例：[パーソルイノベーション株式会社 TECHPLAY様](https://www.youtube.com/watch?v=rrvuhON1rs8)
 - ミドルマネージャーの育成支援
   - 1on1や研修を通じたマネージャー育成、研修など
-    - 事例：[LayerX様](https://tech.layerx.co.jp/entry/2023/09/14/152231)
+    - 事例：[LayerX様：岩瀬さんによるマネジメント＆リーダーシップ研修を実施しました](https://tech.layerx.co.jp/entry/2023/09/14/152231)
 - 組織開発の支援
   - 組織の課題を可視化し、課題に対するアクションプランの検討を伴走
-    - 事例：[日本経済新聞社様](https://hack.nikkei.com/blog/kpi_workshop/)
+    - 事例：[日本経済新聞社様：組織の成長を加速させる！「育成とキャリア開発」のKPI設定に挑戦](https://hack.nikkei.com/blog/kpi_workshop/)
 
 業務依頼のお問い合わせは contact@iwashi.co までご連絡ください。
 
