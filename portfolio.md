@@ -38,7 +38,7 @@ permalink: /portfolio/
     <div class="portfolio-card-header">
       <div>
         <h2>X-Enjo-Checker</h2>
-        <p>Xのポスト前に炎上するかどうかのリスクチェックをする chrome extensionです。</p>
+        <p>Xのポスト前に炎上するかどうかのリスクチェックをするchrome extensionです。</p>
       </div>
       <span class="portfolio-status">GitHub 公開中</span>
     </div>
