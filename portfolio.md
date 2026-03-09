@@ -11,13 +11,10 @@ permalink: /portfolio/
         <h2>TOEIC® Part5 500問ドリル</h2>
         <p>TOEIC Part5 の反復演習に集中できる、スマートフォン向けの学習アプリです。</p>
       </div>
-      <span class="portfolio-status">Android 公開中</span>
-    </div>
-
-    <div class="portfolio-meta" aria-label="アプリ情報">
-      <span class="portfolio-pill">対応: Android</span>
-      <span class="portfolio-pill">iOS: 準備中</span>
-      <span class="portfolio-pill">カテゴリ: 英語学習</span>
+      <div class="portfolio-status-group">
+        <span class="portfolio-status">Android 公開中</span>
+        <span class="portfolio-status">iOS 準備中</span>
+      </div>
     </div>
 
     <h3 class="portfolio-section-title">主な特徴</h3>
@@ -38,7 +35,7 @@ permalink: /portfolio/
     <div class="portfolio-card-header">
       <div>
         <h2>X-Enjo-Checker</h2>
-        <p>Xのポスト前に炎上するかどうかのリスクチェックをするchrome extensionです。</p>
+        <p>NTTドコモビジネスの <a href="https://chakoshi.ntt.com/">chakoshi</a> を活用して、X のポスト前に炎上リスクをチェックできる Chrome Extension です。</p>
       </div>
       <span class="portfolio-status">GitHub 公開中</span>
     </div>
