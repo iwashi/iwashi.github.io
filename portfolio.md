@@ -13,7 +13,7 @@ permalink: /portfolio/
       </div>
       <div class="portfolio-status-group">
         <span class="portfolio-status">Android 公開中</span>
-        <span class="portfolio-status">iOS 準備中</span>
+        <span class="portfolio-status">iOS 公開中</span>
       </div>
     </div>
 
@@ -27,7 +27,7 @@ permalink: /portfolio/
     <h3 class="portfolio-section-title">公開リンク</h3>
     <div class="portfolio-links">
       <a class="portfolio-link" href="https://play.google.com/store/apps/details?id=co.iwashi.toeicpart5training">Google Play で見る</a>
-      <span class="portfolio-link portfolio-link-muted" aria-disabled="true">iOS 版は準備中</span>
+      <a class="portfolio-link" href="https://apps.apple.com/us/app/toeic-part5-500%E5%95%8F%E3%83%89%E3%83%AA%E3%83%AB/id6760376797">App Store で見る</a>
     </div>
   </article>
 
