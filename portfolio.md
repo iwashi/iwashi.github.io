@@ -38,14 +38,14 @@ permalink: /portfolio/
         <p>英検®1級の語彙問題に集中して取り組める、スマートフォン向けの学習アプリです。</p>
       </div>
       <div class="portfolio-status-group">
-        <span class="portfolio-status">Android 準備中</span>
+        <span class="portfolio-status">Android 公開中</span>
         <span class="portfolio-status">iOS 準備中</span>
       </div>
     </div>
 
     <h3 class="portfolio-section-title">公開リンク</h3>
     <div class="portfolio-links">
-      <span class="portfolio-link">Google Play URL 未定</span>
+      <a class="portfolio-link" href="https://play.google.com/store/apps/details?id=co.iwashi.eiken1vocabtraining">Google Play で見る</a>
       <span class="portfolio-link">App Store URL 未定</span>
     </div>
   </article>
