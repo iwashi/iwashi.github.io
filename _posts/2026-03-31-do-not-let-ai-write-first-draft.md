@@ -3,6 +3,10 @@ layout: post
 title: AIに初手でたたき台を作らせない
 description: 生成AIに最初のたたき台を丸ごと作らせないほうが良い理由を、アンカリング効果を軸に説明します。
 tags: [生成AI, 文章術, 意思決定]
+ogp: /assets/images/ogp/2026-03-31-do-not-let-ai-write-first-draft_ogp.png
+ogp_title: |
+  AIに初手で
+  たたき台を作らせない
 ---
 
 生成AIをなんらかの叩き台の作成に使うという話や記事はいくらでも出てくる。だが、AIを使って初手から完全に叩き台を作らせない方が良い。この文章も、95% は手で書いている。
