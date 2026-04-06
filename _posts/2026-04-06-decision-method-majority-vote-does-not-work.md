@@ -3,6 +3,7 @@ layout: post
 title: 意思決定で多数決ばかり使わないほうがよい理由と、おすすめの決め方
 description: 多数決を意思決定のデフォルトにしないほうがいい理由と、代わりにどう決めるかをまとめました。
 tags: [エンジニアリングマネジメント, 意思決定, チーム運営]
+ogp: /assets/images/ogp/2026-04-06-decision-method-majority-vote-does-not-work_ogp.png
 ---
 
 本記事は、[1時間で読み終わるエンジニアリングマネジメント本を書き始めてみる](https://iwashi.co/2026/02/14/engineering-management-book-introduction)で挙げたトピックの1つです。
