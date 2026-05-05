@@ -8,6 +8,25 @@ permalink: /portfolio/
   <article class="portfolio-card">
     <div class="portfolio-card-header">
       <div>
+        <h2>ゼロから作るミニCPU</h2>
+        <p>NAND から始めて、論理ゲート、加算器、レジスタ、メモリ、簡単な CPU の流れまで段階的に学べる Flutter 製の学習アプリです。</p>
+      </div>
+      <div class="portfolio-status-group">
+        <span class="portfolio-status">Android 準備中</span>
+        <span class="portfolio-status">iOS 準備中</span>
+      </div>
+    </div>
+
+    <h3 class="portfolio-section-title">主な特徴</h3>
+    <ul class="portfolio-feature-list">
+      <li>基本ゲートから CPU の構成要素まで、ステージ形式で手を動かしながら学習</li>
+      <li>回路エディタで部品をつなぎ、テストを通して動作を確認できる構成</li>
+    </ul>
+  </article>
+
+  <article class="portfolio-card">
+    <div class="portfolio-card-header">
+      <div>
         <h2>TOEIC® Part5 500問ドリル</h2>
         <p>TOEIC Part5 の反復演習に集中できる、スマートフォン向けの学習アプリです。</p>
       </div>
@@ -56,38 +75,11 @@ permalink: /portfolio/
         <h2>X-Enjo-Checker</h2>
         <p>NTTドコモビジネスの <a href="https://chakoshi.ntt.com/">chakoshi</a> を活用して、X のポスト前に炎上リスクをチェックできる Chrome Extension です。</p>
       </div>
-      <span class="portfolio-status">GitHub 公開中</span>
     </div>
 
     <div class="portfolio-media">
       <img src="/assets/movies/xenjochecker.gif" alt="X-Enjo-Checker のデモ GIF">
     </div>
-
-    <h3 class="portfolio-section-title">公開リンク</h3>
-    <div class="portfolio-links">
-      <a class="portfolio-link" href="https://github.com/iwashi/X-Enjo-Checker">GitHub リポジトリを見る</a>
-    </div>
   </article>
 
-  <article class="portfolio-card">
-    <div class="portfolio-card-header">
-      <div>
-        <h2>ゼロから作るミニCPU</h2>
-        <p>NAND から始めて、論理ゲート、加算器、レジスタ、メモリ、簡単な CPU の流れまで段階的に学べる Flutter 製の学習アプリです。</p>
-      </div>
-      <span class="portfolio-status">GitHub 公開中</span>
-    </div>
-
-    <h3 class="portfolio-section-title">主な特徴</h3>
-    <ul class="portfolio-feature-list">
-      <li>基本ゲートから CPU の構成要素まで、ステージ形式で手を動かしながら学習</li>
-      <li>回路エディタで部品をつなぎ、テストを通して動作を確認できる構成</li>
-      <li>学習進捗や編集途中のドラフトを端末内に保存し、続きから取り組める設計</li>
-    </ul>
-
-    <h3 class="portfolio-section-title">公開リンク</h3>
-    <div class="portfolio-links">
-      <a class="portfolio-link" href="https://github.com/iwashi/CPU-From-Scratch">GitHub リポジトリを見る</a>
-    </div>
-  </article>
 </section>
