@@ -12,8 +12,8 @@ permalink: /portfolio/
         <p>NAND から始めて、論理ゲート、加算器、レジスタ、メモリ、簡単な CPU の流れまで段階的に学べる Flutter 製の学習アプリです。</p>
       </div>
       <div class="portfolio-status-group">
-        <span class="portfolio-status">Android 準備中</span>
-        <span class="portfolio-status">iOS 準備中</span>
+        <span class="portfolio-status">Android 公開中</span>
+        <span class="portfolio-status">iOS 公開中</span>
       </div>
     </div>
 
@@ -22,6 +22,12 @@ permalink: /portfolio/
       <li>基本ゲートから CPU の構成要素まで、ステージ形式で手を動かしながら学習</li>
       <li>回路エディタで部品をつなぎ、テストを通して動作を確認できる構成</li>
     </ul>
+
+    <h3 class="portfolio-section-title">公開リンク</h3>
+    <div class="portfolio-links">
+      <a class="portfolio-link" href="https://play.google.com/store/apps/details?id=co.iwashi.cpu_from_scratch">Google Play で見る</a>
+      <a class="portfolio-link" href="https://apps.apple.com/jp/app/%E3%82%BC%E3%83%AD%E3%81%8B%E3%82%89%E4%BD%9C%E3%82%8B%E3%83%9F%E3%83%8Bcpu/id6766288517">App Store で見る</a>
+    </div>
   </article>
 
   <article class="portfolio-card">
