@@ -319,12 +319,18 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    max-width: 100%;
+    min-width: 0;
     padding: 10px 16px;
     border-radius: 999px;
     border: 1px solid $brand-color;
     color: $brand-color-dark;
     background: #fff;
     font-weight: 600;
+    overflow-wrap: anywhere;
+    text-align: center;
+    white-space: normal;
+    word-break: break-word;
     transition: all 0.2s ease;
 
     &:visited {
@@ -335,6 +341,44 @@
         color: #fff;
         background: $brand-color;
         text-decoration: none;
+    }
+}
+
+.portfolio-page {
+    table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    th,
+    td {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    a[href^="http"] {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+}
+
+.privacy-policy-page {
+    table {
+        width: 100%;
+        table-layout: fixed;
+    }
+
+    th,
+    td {
+        overflow-wrap: anywhere;
+        word-break: break-word;
+    }
+
+    a[href^="http"] {
+        display: inline-block;
+        max-width: 100%;
+        overflow-wrap: anywhere;
+        word-break: break-word;
     }
 }
 
