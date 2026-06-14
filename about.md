@@ -64,6 +64,11 @@ permalink: /about/
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; margin-bottom: 20px; align-items: start;">
   <div style="text-align: center;">
+    <a href="https://amzn.to/49TJ9Ja">
+      <img src="{{ site.baseurl }}/assets/images/craftingengineeringstrategy.jpeg" alt="エンジニアリング戦略の作り方　エンジニアリングの難局を打破する意思決定" style="width: 100%; max-width: 240px; height: auto;">
+    </a>
+  </div>
+  <div style="text-align: center;">
     <a href="https://amzn.to/45QyIEV">
       <img src="{{ site.baseurl }}/assets/images/em_fortherestofus.jpg" alt="エンジニアリングが好きな私たちのための　エンジニアリングマネジャー入門" style="width: 100%; max-width: 240px; height: auto;">
     </a>
