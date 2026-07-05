@@ -1,0 +1,213 @@
+---
+layout: page
+title: 本棚
+permalink: /books/
+description: 実際に読んだ本を3行書評で掲載しているページ。X(Twitter)に投稿した感想をベースに3行にまとめています。
+---
+
+<style>
+.bookshelf-lead { color: #828282; font-size: 16px; margin-bottom: 4px; }
+.bookshelf-disclosure { color: #828282; font-size: 13px; margin-bottom: 10px; }
+
+.bookshelf-toolbar {
+  display: flex; gap: 10px; flex-wrap: wrap; align-items: center;
+  padding: 10px 0 4px;
+  position: sticky; top: 0; z-index: 10;
+  background: rgba(253, 253, 253, .92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.bookshelf-toolbar input[type="search"] {
+  flex: 1; min-width: 180px;
+  padding: 8px 14px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background: #fff;
+  color: #111;
+  font-size: 15px;
+  outline: none;
+  box-sizing: border-box;
+}
+.bookshelf-toolbar input[type="search"]:focus { border-color: #2a7ae2; }
+.bookshelf-toolbar select {
+  padding: 8px 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+  background: #fff;
+  color: #111;
+  font-size: 14px;
+}
+.bookshelf-toolbar .must-filter {
+  display: flex; align-items: center; gap: 5px;
+  font-size: 14px; color: #555; cursor: pointer; user-select: none;
+}
+.bookshelf-count { color: #828282; font-size: 14px; padding: 4px 0 0; }
+
+.bookshelf-list { padding: 16px 0 20px; display: grid; gap: 20px; }
+
+.book {
+  background: #fff;
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  padding: 22px;
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 18px;
+}
+.book.no-cover { grid-template-columns: 1fr; }
+.book .cover a { display: block; width: 96px; }
+.book .cover img {
+  width: 100%; border-radius: 3px; display: block;
+  border: 1px solid #e8e8e8;
+}
+.book h2 {
+  font-size: 19px; font-weight: 600; line-height: 1.5;
+  margin: 0; letter-spacing: 0;
+}
+.book .meta { color: #828282; font-size: 13px; margin-top: 2px; }
+.book .cat-tag {
+  display: inline-block;
+  border: 1px solid rgba(42, 122, 226, .25);
+  border-radius: 999px;
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  color: #2a7ae2;
+  background: #f4f8ff;
+}
+.book .must-tag {
+  display: inline-block;
+  border: 1px solid rgba(217, 83, 79, .35);
+  border-radius: 999px;
+  padding: 0 10px;
+  margin-right: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: #d9534f;
+  background: #fff5f5;
+}
+.book .review { margin-top: 10px; font-size: 16px; color: #111; white-space: pre-line; }
+.book .review ul { list-style: none; white-space: normal; margin: 0; padding: 0; }
+.book .review li { padding-left: 1.1em; text-indent: -1.1em; margin: 0; }
+.book .review li::before { content: '・'; }
+.book .actions { margin-top: 14px; display: flex; gap: 14px; align-items: center; flex-wrap: wrap; }
+.book .amazon {
+  display: inline-block;
+  background: #2a7ae2;
+  color: #fff;
+  padding: 6px 18px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: background .15s;
+}
+.book .amazon:hover { background: #1756a9; color: #fff; text-decoration: none; }
+.book .tweet-link { color: #828282; font-size: 14px; text-decoration: none; }
+.book .tweet-link:hover { color: #2a7ae2; }
+.book .tweet-link .x-logo { font-weight: 700; color: #111; }
+.book .tweet-link:hover .x-logo { color: #2a7ae2; }
+.bookshelf-empty { text-align: center; color: #828282; padding: 60px 0; }
+.bookshelf-note { color: #828282; font-size: 14px; text-align: center; margin-top: 20px; }
+
+@media (max-width: 560px) {
+  .book { padding: 16px; grid-template-columns: 72px 1fr; gap: 14px; }
+  .book .cover a { width: 72px; }
+}
+</style>
+
+<p class="bookshelf-lead">実際に読んでXで言及した書籍を、最近読んだ順で3行紹介しています。</p>
+<p class="bookshelf-lead">実際の読書メモはXへのリンクを参照のこと。</p>
+
+<div class="bookshelf-toolbar">
+  <input type="search" id="q" placeholder="タイトル・感想を検索…" aria-label="検索">
+  <select id="cat" aria-label="カテゴリで絞り込み"><option value="">すべてのカテゴリ</option></select>
+  <select id="year" aria-label="年で絞り込み"><option value="">すべての年</option></select>
+  <label class="must-filter"><input type="checkbox" id="must">必読のみ</label>
+</div>
+<div class="bookshelf-count" id="count"></div>
+
+<div class="bookshelf-list" id="list"></div>
+
+<script src="/books/books.js"></script>
+<script>
+const list = document.getElementById('list');
+const q = document.getElementById('q');
+const yearSel = document.getElementById('year');
+const catSel = document.getElementById('cat');
+const count = document.getElementById('count');
+const mustChk = document.getElementById('must');
+
+const years = [...new Set(BOOKS.map(b => b.date.slice(0, 4)))].sort().reverse();
+for (const y of years) {
+  const o = document.createElement('option');
+  o.value = y; o.textContent = y + '年';
+  yearSel.appendChild(o);
+}
+
+const CAT_ORDER = ['ソフトウェア開発', 'AI・機械学習', 'マネジメント・組織', 'プロダクト・ビジネス', '仕事術・思考法', 'その他'];
+const cats = [...new Set(BOOKS.flatMap(b => b.categories || []))]
+  .sort((a, b) => CAT_ORDER.indexOf(a) - CAT_ORDER.indexOf(b));
+for (const c of cats) {
+  const o = document.createElement('option');
+  o.value = c; o.textContent = c;
+  catSel.appendChild(o);
+}
+
+function render() {
+  const kw = q.value.trim().toLowerCase();
+  const year = yearSel.value;
+  const cat = catSel.value;
+  const items = BOOKS.filter(b =>
+    (!year || b.date.startsWith(year)) &&
+    (!cat || (b.categories || []).includes(cat)) &&
+    (!mustChk.checked || b.mustRead) &&
+    (!kw || (b.title + b.review).toLowerCase().includes(kw))
+  );
+  count.textContent = `${items.length} 冊`;
+  list.innerHTML = '';
+  if (!items.length) {
+    list.innerHTML = '<div class="bookshelf-empty">見つかりませんでした</div>';
+    return;
+  }
+  for (const b of items) {
+    const el = document.createElement('article');
+    el.className = 'book' + (b.cover ? '' : ' no-cover');
+    el.innerHTML = `
+      ${b.cover ? `<div class="cover"><a href="${b.amazonUrl}" target="_blank" rel="nofollow noopener sponsored"><img src="${b.cover}" alt="${esc(b.title)} の書影" loading="lazy"></a></div>` : ''}
+      <div>
+        <h2>${esc(b.title)}</h2>
+        <div class="meta">${b.mustRead ? '<span class="must-tag">必読</span>' : ''}${(b.categories || []).map(c => `<span class="cat-tag">${esc(c)}</span>`).join('')}${esc(b.author || '')}</div>
+        <div class="review">${renderReview(b.review)}</div>
+        <div class="actions">
+          <a class="amazon" href="${b.amazonUrl}" target="_blank" rel="nofollow noopener sponsored">Amazon で見る</a>
+          <a class="tweet-link" href="${b.tweetUrl}" target="_blank" rel="noopener"><span class="x-logo">𝕏</span>で元ポスト(${fmtDate(b.date)})を見る ↗</a>
+        </div>
+      </div>`;
+    list.appendChild(el);
+  }
+}
+
+function fmtDate(d) {
+  const [y, m, day] = d.split('-');
+  return `${y}/${Number(m)}/${Number(day)}`;
+}
+
+function renderReview(review) {
+  const lines = review.split('\n').filter(l => l.trim());
+  if (lines.length && lines.every(l => l.startsWith('* '))) {
+    return '<ul>' + lines.map(l => `<li>${esc(l.slice(2))}</li>`).join('') + '</ul>';
+  }
+  return esc(review);
+}
+
+function esc(s) {
+  return s.replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+q.addEventListener('input', render);
+yearSel.addEventListener('change', render);
+catSel.addEventListener('change', render);
+mustChk.addEventListener('change', render);
+render();
+</script>
