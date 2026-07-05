@@ -122,18 +122,18 @@ permalink: /about/
 
 #### 動画
 
-<div style="display: flex; gap: 20px; margin-bottom: 20px; flex-wrap: wrap;">
-  <div style="flex: 1 1 280px; min-width: 280px;">
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 20px; margin-bottom: 20px;">
+  <div>
     <div style="position: relative; width: 100%; padding-top: 56.25%;">
       <iframe src="https://www.youtube.com/embed/Ijzeb5kQhxI?si=IRHc3sB1NxdZEMoK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
     </div>
   </div>
-  <div style="flex: 1 1 280px; min-width: 280px;">
+  <div>
     <div style="position: relative; width: 100%; padding-top: 56.25%;">
       <iframe src="https://www.youtube.com/embed/rrvuhON1rs8?si=tdTnduIgLX8xIg0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
     </div>
   </div>
-  <div style="flex: 1 1 280px; min-width: 280px;">
+  <div>
     <div style="position: relative; width: 100%; padding-top: 56.25%;">
       <iframe src="https://www.youtube.com/embed/kbxjnTjV6Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
     </div>
