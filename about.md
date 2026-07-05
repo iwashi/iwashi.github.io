@@ -133,6 +133,11 @@ permalink: /about/
       <iframe src="https://www.youtube.com/embed/rrvuhON1rs8?si=tdTnduIgLX8xIg0c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
     </div>
   </div>
+  <div style="flex: 1 1 280px; min-width: 280px;">
+    <div style="position: relative; width: 100%; padding-top: 56.25%;">
+      <iframe src="https://www.youtube.com/embed/kbxjnTjV6Uc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="position: absolute; inset: 0; width: 100%; height: 100%; border: 0;"></iframe>
+    </div>
+  </div>
 </div>
 
 #### テキスト
