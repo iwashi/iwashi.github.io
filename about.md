@@ -93,6 +93,7 @@ permalink: /about/
 #### 雑誌
 
 - [Software Design 2021年7月号、第3章：社内ISUCONのススメ](https://gihyo.jp/magazine/SD/archive/2021/202107)
+- [通信ソサイエティマガジン B-Plus No.77](https://www.ieice.org/cs/cs-edit/magazine/archive/)
 
 ### Talks - 主な講演
 
