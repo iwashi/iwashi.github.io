@@ -460,6 +460,15 @@
 .post-content {
     margin-bottom: $spacing-unit;
 
+    table {
+        margin-bottom: $spacing-unit;
+    }
+
+    h2, h3 {
+        margin-top: $spacing-unit;
+        margin-bottom: calc($spacing-unit * 0.8);
+    }
+
     h2 {
         font-size: 32px;
 
