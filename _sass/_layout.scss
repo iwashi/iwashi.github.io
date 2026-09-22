@@ -462,6 +462,19 @@
 
     table {
         margin-bottom: $spacing-unit;
+        border-collapse: collapse;
+
+        th,
+        td {
+            padding: 6px 12px;
+            border: 1px solid $grey-color-light;
+            text-align: left;
+            vertical-align: top;
+        }
+
+        th {
+            background-color: #f6f6f6;
+        }
     }
 
     h2, h3 {
